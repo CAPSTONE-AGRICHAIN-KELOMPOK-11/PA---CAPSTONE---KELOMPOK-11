@@ -53,3 +53,9 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
 - **Distributor**: Melihat data hasil panen petani, membuat permintaan, dan memantau status pengiriman.  
 - **Admin**: Mengelola data petani dan distributor serta memastikan sistem berjalan dengan baik.  
 
+## 📈 Use Case Diagram
+
+<details>
+  <summary>1. Menu Login</summary>
+  <img src="![Menu Login](https://github.com/user-attachments/assets/b493b348-63a3-4dfa-b83c-ea343876c68f)" alt="">
+</details>

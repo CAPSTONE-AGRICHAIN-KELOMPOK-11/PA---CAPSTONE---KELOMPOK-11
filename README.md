@@ -92,3 +92,56 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
   <img src="https://github.com/user-attachments/assets/b25bf5f2-a828-4acf-abfd-986899e7022b" alt="">
 </details>
 
+## ⚙️ Fitur Program
+
+## ⚙️ Fitur Program
+
+Aplikasi **AgriChain** memiliki beberapa fitur utama yang dibedakan berdasarkan peran pengguna: **Petani**, **Distributor**, dan **Admin**.
+
+### 🧑‍💼 1. Fitur untuk Admin
+Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi **AgriChain**. Berikut fitur-fitur utama yang dapat dilakukan oleh admin:
+
+- **Kelola Akun Distributor**  
+  Admin dapat menambah, mengedit, dan menghapus data distributor, termasuk nama, nomor telepon, status, dan tanggal registrasi.  
+
+- **Kelola Akun Petani**  
+  Admin bisa memantau data petani, hasil panen, serta aktivitas yang dilakukan di sistem.  
+
+- **Pantau Permintaan Hasil Panen**  
+  Admin dapat melihat daftar permintaan yang dilakukan oleh distributor kepada petani dan memastikan transaksi berjalan lancar.  
+
+- **Manajemen Database Terpusat**  
+  Semua data pengguna, hasil panen, dan permintaan tersimpan di database MySQL, sehingga memudahkan pemantauan dan pencarian data.  
+
+- **Antarmuka Visual Interaktif**  
+  Admin dapat berinteraksi langsung melalui tampilan GUI yang sederhana dan mudah digunakan, dilengkapi tombol *Tambah*, *Edit*, *Hapus*, serta tabel data.  
+
+---
+
+### 👨‍🌾 2. Fitur untuk Petani
+- **Input Data Hasil Panen**  
+  Petani dapat menambahkan data hasil panen seperti luas lahan, nama sawah, dan lokasi.  
+- **Melihat dan Mengelola Permintaan**  
+  Petani dapat melihat daftar permintaan dari distributor dan memperbarui statusnya (misalnya: *menunggu*, *diproses*, *selesai*).  
+- **Dashboard Petani**  
+  Menampilkan informasi panen dan permintaan dalam satu tampilan yang mudah dipahami.  
+
+---
+
+### 🚚 3. Fitur untuk Distributor
+- **Melihat Data Petani dan Hasil Panen**  
+  Distributor dapat mencari dan menyortir data hasil panen berdasarkan lokasi atau jumlah panen.  
+- **Membuat Permintaan Hasil Panen**  
+  Distributor dapat membuat permintaan kepada petani secara langsung dari aplikasi.  
+- **Pantau Status Permintaan**  
+  Distributor bisa melihat status permintaan yang dikirim apakah sudah diterima, sedang diproses, atau selesai.  
+
+---
+
+### 🖥️ 4. Fitur Umum
+- **Login dan Register Sesuai Role**  
+  Pengguna baru dapat mendaftar sebagai *Petani* atau *Distributor*, dan sistem akan menampilkan halaman sesuai perannya.  
+- **Koneksi Database Otomatis**  
+  Semua data tersimpan otomatis di MySQL menggunakan JDBC Connector.  
+- **Tampilan GUI Menarik dan Responsif**  
+  Dibangun menggunakan Java Swing dengan layout **AbsoluteLayout** dan tema modern dari **FlatLaf**.  

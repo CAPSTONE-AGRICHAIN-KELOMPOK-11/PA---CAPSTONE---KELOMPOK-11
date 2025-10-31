@@ -57,5 +57,10 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
 
 <details>
   <summary>1. Menu Login</summary>
-  <img src="![Menu Login](https://github.com/user-attachments/assets/b493b348-63a3-4dfa-b83c-ea343876c68f)" alt="">
+  <img src="https://github.com/user-attachments/assets/6a69e964-6f37-4c1c-a6d1-67eb5ade2ec7" alt="">
+</details>
+
+<details>
+  <summary>2. Menu Admin</summary>
+  <img src="https://github.com/user-attachments/assets/524d32cc-25cc-4da0-a4c4-18c6d00976e6" alt="">
 </details>

@@ -55,6 +55,8 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
 
 ## 📈 Use Case Diagram
 
+## 🔁 Flowchart Program
+
 <details>
   <summary>1. Menu Login</summary>
   <img src="https://github.com/user-attachments/assets/6a69e964-6f37-4c1c-a6d1-67eb5ade2ec7" alt="">
@@ -64,3 +66,15 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
   <summary>2. Menu Admin</summary>
   <img src="https://github.com/user-attachments/assets/524d32cc-25cc-4da0-a4c4-18c6d00976e6" alt="">
 </details>
+
+<details>
+  <summary>3. Menu Petani</summary>
+  <img src="https://github.com/user-attachments/assets/9a95e796-88e3-4d7a-bc96-31b742cb8387" alt="">
+</details>
+
+<details>
+  <summary>4. Menu Distributor</summary>
+  <img src="https://github.com/user-attachments/assets/c71d27c9-f557-4d96-83f2-84302b8c3807" alt="">
+</details>
+
+

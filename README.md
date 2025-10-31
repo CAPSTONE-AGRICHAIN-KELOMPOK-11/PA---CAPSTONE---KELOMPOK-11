@@ -144,4 +144,4 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi **AgriC
 - **Koneksi Database Otomatis**  
   Semua data tersimpan otomatis di MySQL menggunakan JDBC Connector.  
 - **Tampilan GUI Menarik dan Responsif**  
-  Dibangun menggunakan Java Swing dengan layout **AbsoluteLayout** dan tema modern dari **FlatLaf**.  
+  Dibangun menggunakan Java Swing dengan layout AbsoluteLayout dan tema modern dari FlatLaf.  

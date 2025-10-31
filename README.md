@@ -94,8 +94,6 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
 
 ## ⚙️ Fitur Program
 
-## ⚙️ Fitur Program
-
 Aplikasi **AgriChain** memiliki beberapa fitur utama yang dibedakan berdasarkan peran pengguna: **Petani**, **Distributor**, dan **Admin**.
 
 ### 🧑‍💼 1. Fitur untuk Admin
@@ -145,3 +143,8 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi **AgriC
   Semua data tersimpan otomatis di MySQL menggunakan JDBC Connector.  
 - **Tampilan GUI Menarik dan Responsif**  
   Dibangun menggunakan Java Swing dengan layout AbsoluteLayout dan tema modern dari FlatLaf.  
+
+## 💡 Penerapan OOP
+
+##  📂 Struktur Folder / Package
+

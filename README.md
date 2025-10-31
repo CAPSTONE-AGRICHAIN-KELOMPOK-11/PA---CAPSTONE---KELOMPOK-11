@@ -55,6 +55,11 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
 
 ## 📈 Use Case Diagram
 
+<details>
+  <summary>Use Case</summary>
+  <img src="https://github.com/user-attachments/assets/9f2fd37f-f0e6-49bc-ae39-efd53b1bf775" alt="">
+</details>
+
 ## 🔁 Flowchart Program
 
 <details>
@@ -77,4 +82,13 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
   <img src="https://github.com/user-attachments/assets/c71d27c9-f557-4d96-83f2-84302b8c3807" alt="">
 </details>
 
+<details>
+  <summary>5. Kelola Petani</summary>
+  <img src="https://github.com/user-attachments/assets/7f001eee-0b0e-4244-bb0f-920877927d6e" alt="">
+</details>
+
+<details>
+  <summary>6. Kelola Distributor</summary>
+  <img src="https://github.com/user-attachments/assets/b25bf5f2-a828-4acf-abfd-986899e7022b" alt="">
+</details>
 

@@ -152,8 +152,9 @@ Struktur folder pada proyek **AgriChain** dibuat berdasarkan pola **MVC (Model-V
 
 Secara umum, struktur foldernya adalah sebagai berikut:
 
-### 🧠 `Controller`
-Package ini berisi seluruh logika utama aplikasi (business logic) yang mengatur alur kerja antara tampilan (view) dan data (model). Controller menerima input dari user melalui form GUI, memproses data, lalu menghubungkannya ke database lewat package Database.
+<details>
+  <summary>🧠 Controller</summary>
+  Package ini berisi seluruh logika utama aplikasi (business logic) yang mengatur alur kerja antara tampilan (view) dan data (model). Controller menerima input dari user melalui form GUI, memproses data, lalu menghubungkannya ke database lewat package Database.
 
 Berikut beberapa file penting di dalamnya:
 - **`BaseController.java`**: Kelas dasar yang menjadi induk bagi controller lain, berisi fungsi umum seperti validasi input atau pengaturan koneksi awal.  
@@ -167,8 +168,10 @@ Berikut beberapa file penting di dalamnya:
 - **`generateID.java`**: Membuat ID unik otomatis untuk setiap data baru agar tidak terjadi duplikasi di database.
 
 Package ini berfungsi sebagai “otak” dari aplikasi yang mengatur hubungan antar komponen dan memastikan logika berjalan dengan benar.
+</details> 
 
-### 🗄️ `Database`
+<details>
+  <summary>🗄️ Database</summary>
 Package **Database** berfungsi untuk mengatur seluruh proses **koneksi dan komunikasi antara aplikasi AgriChain dengan database MySQL** menggunakan JDBC. Struktur di dalamnya mengikuti konsep *service layer*, di mana setiap jenis data (Admin, Petani, Distributor, Hasil Panen, dan Permintaan) memiliki class khusus untuk memproses query-nya masing-masing. Hal ini membuat kode menjadi lebih rapi, terpisah, dan mudah diperbaiki jika ada perubahan pada struktur database.
 
 - **`Koneksi.java`**: Mengatur koneksi utama ke MySQL.  
@@ -190,6 +193,7 @@ Package **Database** berfungsi untuk mengatur seluruh proses **koneksi dan komun
 
 - **`permintaanService.java`**: Mengatur data **permintaan hasil panen** dari distributor ke petani.
   Termasuk menambah permintaan baru, memperbarui status (misalnya menunggu, diterima, atau selesai), serta menampilkan daftar permintaan yang aktif.
+
 
 ### 🧩 `Model`
 Package ini berisi **kelas-kelas representasi data (entity class)** yang mencerminkan tabel di database.  

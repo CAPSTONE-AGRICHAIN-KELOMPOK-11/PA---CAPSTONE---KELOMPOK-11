@@ -193,9 +193,10 @@ Package **Database** berfungsi untuk mengatur seluruh proses **koneksi dan komun
 
 - **`permintaanService.java`**: Mengatur data **permintaan hasil panen** dari distributor ke petani.
   Termasuk menambah permintaan baru, memperbarui status (misalnya menunggu, diterima, atau selesai), serta menampilkan daftar permintaan yang aktif.
+</details>
 
-
-### 🧩 `Model`
+<details>
+  <summary>🧩 Model</summary>
 Package ini berisi **kelas-kelas representasi data (entity class)** yang mencerminkan tabel di database.  
 Setiap model memiliki atribut dan metode *getter/setter* yang digunakan untuk mengatur atau mengambil nilai data.
 
@@ -206,20 +207,25 @@ Setiap model memiliki atribut dan metode *getter/setter* yang digunakan untuk me
 - **`hasilPanen.java`**: Menyimpan data panen yang dimasukkan oleh petani (jenis, jumlah, satuan).
 
 Package ini berperan sebagai wadah data yang dikirim atau diterima antar komponen aplikasi.
+</details>
 
-### 🔐 `Session`
+<details>
+  <summary>🔐 Session</summary>
 Package ini berfungsi untuk **menyimpan informasi pengguna yang sedang login** agar bisa digunakan di berbagai tampilan (form).  
 Misalnya menyimpan ID user, nama, dan perannya (Admin, Petani, Distributor).
 
 - **`Session.java`**: Berisi variabel global yang bisa diakses oleh semua form untuk melacak siapa yang sedang aktif menggunakan aplikasi.
 
 Dengan Session, user tidak perlu login berulang kali saat berpindah halaman.
+</details>
 
-### 🚀 `main`
+<details>
+  <summary>🚀 main</summary>
 Package ini berisi file utama yang menjalankan program.
 
 - **`Main.java`**: Menjadi *entry point* aplikasi. File ini biasanya memanggil form pertama (seperti LoginForm) dan melakukan inisialisasi awal sebelum program berjalan.
 
 Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang benar saat pertama kali dijalankan.
-
+</details>
+  
 ## 🧰 Library / Framework yang Digunakan

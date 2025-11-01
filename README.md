@@ -146,6 +146,76 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi **AgriC
 
 ## 💡 Penerapan OOP
 
-##  📂 Struktur Folder / Package
+## 📂 Struktur Folder / Package
+
+Struktur folder pada proyek **AgriChain** dibuat berdasarkan pola **MVC (Model-View-Controller)** agar setiap bagian kode memiliki tanggung jawab yang jelas. Dengan struktur seperti ini, pengembangan aplikasi jadi lebih mudah, rapi, dan terorganisir antara tampilan (View), logika (Controller), dan data (Model).
+
+Secara umum, struktur foldernya adalah sebagai berikut:
+
+### 🧠 `Controller`
+Package ini berisi seluruh logika utama aplikasi (business logic) yang mengatur alur kerja antara tampilan (view) dan data (model). Controller menerima input dari user melalui form GUI, memproses data, lalu menghubungkannya ke database lewat package Database.
+
+Berikut beberapa file penting di dalamnya:
+- **`BaseController.java`**: Kelas dasar yang menjadi induk bagi controller lain, berisi fungsi umum seperti validasi input atau pengaturan koneksi awal.  
+- **`LoginController.java`**: Mengatur proses login untuk semua pengguna (Admin, Petani, Distributor).  
+- **`RegisterController.java`**: Menangani proses pendaftaran akun baru ke dalam database.  
+- **`adminController.java`**: Mengatur fitur-fitur khusus admin seperti kelola akun distributor dan petani.  
+- **`distributorController.java`**: Mengatur aktivitas distributor seperti membuat permintaan hasil panen.  
+- **`hasilPanenController.java`**: Bertanggung jawab atas proses penambahan, pengeditan, dan penghapusan data hasil panen oleh petani.  
+- **`permintaanController.java`**: Mengatur data permintaan hasil panen dari distributor dan statusnya.  
+- **`petaniController.java`**: Mengelola data petani, termasuk sawah, lokasi, dan luas lahan.  
+- **`generateID.java`**: Membuat ID unik otomatis untuk setiap data baru agar tidak terjadi duplikasi di database.
+
+Package ini berfungsi sebagai “otak” dari aplikasi yang mengatur hubungan antar komponen dan memastikan logika berjalan dengan benar.
+
+### 🗄️ `Database`
+Package **Database** berfungsi untuk mengatur seluruh proses **koneksi dan komunikasi antara aplikasi AgriChain dengan database MySQL** menggunakan JDBC. Struktur di dalamnya mengikuti konsep *service layer*, di mana setiap jenis data (Admin, Petani, Distributor, Hasil Panen, dan Permintaan) memiliki class khusus untuk memproses query-nya masing-masing. Hal ini membuat kode menjadi lebih rapi, terpisah, dan mudah diperbaiki jika ada perubahan pada struktur database.
+
+- **`Koneksi.java`**: Mengatur koneksi utama ke MySQL.  
+  File ini menyimpan konfigurasi seperti URL database, username, dan password.  
+  Semua file lain akan menggunakan koneksi dari sini agar tidak perlu membuat koneksi baru berulang kali.
+
+- **`CRUDService.java`**: Menyediakan **fungsi dasar CRUD** (*Create, Read, Update, Delete*) yang dapat digunakan oleh berbagai service lain.  
+  Dengan adanya class ini, semua proses database dapat dilakukan secara efisien tanpa perlu menulis ulang query yang sama.
+
+- **`adminService.java`**: Berfungsi untuk mengelola data **Admin**, termasuk menambah akun baru, memperbarui data, dan menampilkan daftar admin.
+
+- **`distributorService.java`**: Menangani semua operasi terkait **Distributor**, seperti menyimpan data pendaftaran, memperbarui status, serta mengambil data distributor dari database.
+
+- **`petaniService.java`**: Digunakan untuk mengatur data **Petani**, seperti nama, nomor telepon, lokasi sawah, dan luas lahan.  
+  File ini biasanya digunakan oleh `petaniController` untuk menampilkan dan memperbarui data petani di GUI.
+
+- **`hasilPanenService.java`**: Mengelola data **hasil panen** dari petani, meliputi jenis hasil panen, jumlah, satuan (kg/ton), dan status data.  
+  File ini membantu `hasilPanenController` dalam memuat daftar hasil panen serta menambahkan data baru.
+
+- **`permintaanService.java`**: Mengatur data **permintaan hasil panen** dari distributor ke petani.
+  Termasuk menambah permintaan baru, memperbarui status (misalnya menunggu, diterima, atau selesai), serta menampilkan daftar permintaan yang aktif.
+
+### 🧩 `Model`
+Package ini berisi **kelas-kelas representasi data (entity class)** yang mencerminkan tabel di database.  
+Setiap model memiliki atribut dan metode *getter/setter* yang digunakan untuk mengatur atau mengambil nilai data.
+
+- **`Admin.java`** — Menyimpan data admin seperti ID, nama, dan nomor telepon.  
+- **`Distributor.java`** — Menyimpan informasi distributor seperti nama, status, dan tanggal registrasi.  
+- **`Permintaan.java`** — Mewakili data permintaan hasil panen oleh distributor.  
+- **`Petani.java`** — Berisi data petani seperti nama sawah, luas lahan, dan lokasi.  
+- **`hasilPanen.java`** — Menyimpan data panen yang dimasukkan oleh petani (jenis, jumlah, satuan).
+
+Package ini berperan sebagai wadah data yang dikirim atau diterima antar komponen aplikasi.
+
+### 🔐 `Session`
+Package ini berfungsi untuk **menyimpan informasi pengguna yang sedang login** agar bisa digunakan di berbagai tampilan (form).  
+Misalnya menyimpan ID user, nama, dan perannya (Admin, Petani, Distributor).
+
+- **`Session.java`** — Berisi variabel global yang bisa diakses oleh semua form untuk melacak siapa yang sedang aktif menggunakan aplikasi.
+
+Dengan Session, user tidak perlu login berulang kali saat berpindah halaman.
+
+### 🚀 `main`
+Package ini berisi file utama yang menjalankan program.
+
+- **`Main.java`** — Menjadi *entry point* aplikasi. File ini biasanya memanggil form pertama (seperti LoginForm) dan melakukan inisialisasi awal sebelum program berjalan.
+
+Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang benar saat pertama kali dijalankan.
 
 ## 🧰 Library / Framework yang Digunakan

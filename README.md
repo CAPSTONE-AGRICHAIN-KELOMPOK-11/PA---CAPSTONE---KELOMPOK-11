@@ -15,9 +15,8 @@
 - [💡 Penerapan OOP](#-penerapan-oop)
 - [📂 Struktur Folder / Package](#-struktur-folder--package)
 - [🧰 Library / Framework yang Digunakan](#-library--framework-yang-digunakan)
-- [💻 Cara Menggunakan Program](#-cara-menggunakan-program)
-- [🖼️ Tampilan GUI](#-tampilan-gui)
-
+- [🖥️ Panduan & Antarmuka Pengguna (GUI)](#-panduan-&-antarmuka-pengguna-(gui))
+  
 ## 👤 Profil Anggota
 | Nayla Camelia Indraswari| Indah Maramin Al Inayah  | Nanda Pesona Putri | Luthfi Daffa Purbaya |
 |-------------------------|--------------------------|--------------------|----------------------|
@@ -242,4 +241,4 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 - **`JDK 24`**
   Versi Java Development Kit yang digunakan untuk menjalankan dan mengompilasi program. Mendukung fitur-fitur terbaru Java untuk stabilitas dan keamanan
 
-
+## 🖥️ Panduan & Antarmuka Pengguna (GUI)

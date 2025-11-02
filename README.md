@@ -232,5 +232,14 @@ Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang bena
 Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untuk membantu proses pembuatan GUI, pengelolaan database, dan peningkatan tampilan aplikasi. Berikut daftar library dan fungsinya:
 
 - **`mysql-connector-j-9.4.0.jar`**
-  Digunakan untuk menghubungkan aplikasi Java dengan database MySQL. Tan
-- 
+  Digunakan untuk menghubungkan aplikasi Java dengan database MySQL. Tanpa library ini, program tidak dapat melakukan proses ambil dan simpan data ke database
+- **`AbsoluteLayout.jar`**
+  Membantu mengatur posisi komponen GUI (seperti tombol, label, dan text field) dengan bebas di tampilan NetBeans.
+- **`jcalendar-1.4.jar`**
+  Memberikan komponen calendar picker agar pengguna bisa memilih tanggal secara otomatis.
+- **`flatlaf-3.4.jar`**
+  Digunakan untuk mempercantik tampilan aplikasi Java Swing. Dengan FlatLaf, tampilan aplikasi menjadi lebih modern, bersih, dan nyaman dilihat.
+- **`JDK 24`**
+  Versi Java Development Kit yang digunakan untuk menjalankan dan mengompilasi program. Mendukung fitur-fitur terbaru Java untuk stabilitas dan keamanan
+
+

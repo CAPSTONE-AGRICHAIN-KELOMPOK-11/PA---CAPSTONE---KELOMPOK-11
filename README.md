@@ -26,13 +26,12 @@
 **AgriChain** adalah Sistem informasi berbasis Java untuk menghubungkan petani dan distributor dalam mengelola hasil panen, melakukan permintaan distribusi, dan memantau status pengiriman produk secara efisien.
 
 ## 📝 Deskripsi Program
-Aplikasi **AgriChain** adalah sistem informasi berbasis Java yang dirancang untuk membantu proses distribusi hasil panen antara **petani** dan **distributor** secara digital dan terintegrasi.  
-Tujuan utama aplikasi ini adalah untuk menciptakan rantai pasok pertanian yang lebih efisien, transparan, dan mudah digunakan oleh semua pihak yang terlibat dalam ekosistem pertanian lokal.  
+Aplikasi **AgriChain** adalah sistem informasi berbasis Java yang dirancang untuk membantu proses distribusi hasil panen antara petani dan distributor secara digital dan terintegrasi yang dikelola oleh admin. Tujuan utama aplikasi ini adalah untuk menciptakan rantai pasok pertanian yang lebih efisien, transparan, dan mudah digunakan oleh semua pihak yang terlibat dalam ekosistem pertanian lokal.  
 
 ---
 
 ### ⚙️ 1. Kebutuhan Sistem  
-Agar aplikasi **AgriChain** bisa dijalankan dengan baik, berikut beberapa alat dan library yang digunakan dalam pengembangannya:  
+Agar aplikasi AgriChain bisa dijalankan dengan baik, berikut beberapa alat dan library yang digunakan dalam pengembangannya:  
 - **`JDK 24`**: Digunakan untuk menjalankan dan mengompilasi program berbasis Java. Versi ini mendukung fitur terbaru Java untuk performa dan keamanan yang lebih baik.  
 - **`NetBeans IDE 22`**: Digunakan sebagai tempat membuat dan mengedit tampilan aplikasi (GUI) serta menulis kode Java dengan mudah.  
 - **`XAMPP`**: Menyediakan server lokal untuk menjalankan database MySQL agar aplikasi dapat menyimpan dan mengelola data pengguna.  
@@ -44,7 +43,7 @@ Agar aplikasi **AgriChain** bisa dijalankan dengan baik, berikut beberapa alat d
 ---
 
 ### 🌾 2. Fungsi Utama  
-AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan **distributor** tanpa perantara. Petani dapat menginput hasil panen yang mereka miliki, sementara distributor dapat melihat data hasil panen tersebut dan membuat permintaan langsung kepada petani. Aplikasi ini juga memungkinkan **admin** untuk mengelola akun pengguna dan memantau aktivitas sistem.
+AgriChain hadir untuk mempermudah komunikasi dan transaksi antara petani dan distributor tanpa perantara. Petani dapat menginput hasil panen yang mereka miliki, sementara distributor dapat melihat data hasil panen tersebut dan membuat permintaan langsung kepada petani. Aplikasi ini juga memungkinkan admin untuk mengelola akun pengguna dan memantau aktivitas sistem.
 
 ---
 
@@ -97,7 +96,7 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara **petani** dan
 Aplikasi **AgriChain** memiliki beberapa fitur utama yang dibedakan berdasarkan peran pengguna: **Petani**, **Distributor**, dan **Admin**.
 
 ### 🧑‍💼 1. Fitur untuk Admin
-Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi **AgriChain**. Berikut fitur-fitur utama yang dapat dilakukan oleh admin:
+Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi AgriChain. Berikut fitur-fitur utama yang dapat dilakukan oleh admin:
 
 - **Kelola Akun Distributor**  
   Admin dapat menambah, mengedit, dan menghapus data distributor, termasuk nama, nomor telepon, status, dan tanggal registrasi.  
@@ -112,7 +111,7 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi **AgriC
   Semua data pengguna, hasil panen, dan permintaan tersimpan di database MySQL, sehingga memudahkan pemantauan dan pencarian data.  
 
 - **Antarmuka Visual Interaktif**  
-  Admin dapat berinteraksi langsung melalui tampilan GUI yang sederhana dan mudah digunakan, dilengkapi tombol *Tambah*, *Edit*, *Hapus*, serta tabel data.  
+  Admin dapat berinteraksi langsung melalui tampilan GUI yang sederhana dan mudah digunakan, dilengkapi tombol Tambah, Edit, Hapus, serta tabel data.  
 
 ---
 
@@ -120,7 +119,7 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi **AgriC
 - **Input Data Hasil Panen**  
   Petani dapat menambahkan data hasil panen seperti luas lahan, nama sawah, dan lokasi.  
 - **Melihat dan Mengelola Permintaan**  
-  Petani dapat melihat daftar permintaan dari distributor dan memperbarui statusnya (misalnya: *menunggu*, *diproses*, *selesai*).  
+  Petani dapat melihat daftar permintaan dari distributor dan memperbarui statusnya.  
 - **Dashboard Petani**  
   Menampilkan informasi panen dan permintaan dalam satu tampilan yang mudah dipahami.  
 
@@ -132,7 +131,7 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi **AgriC
 - **Membuat Permintaan Hasil Panen**  
   Distributor dapat membuat permintaan kepada petani secara langsung dari aplikasi.  
 - **Pantau Status Permintaan**  
-  Distributor bisa melihat status permintaan yang dikirim apakah sudah diterima, sedang diproses, atau selesai.  
+  Distributor bisa melihat status permintaan yang dikirim apakah sudah diterima, sedang diproses, atau dipenuhi.  
 
 ---
 
@@ -229,3 +228,9 @@ Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang bena
 </details>
   
 ## 🧰 Library / Framework yang Digunakan
+
+Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untuk membantu proses pembuatan GUI, pengelolaan database, dan peningkatan tampilan aplikasi. Berikut daftar library dan fungsinya:
+
+- **`mysql-connector-j-9.4.0.jar`**
+  Digunakan untuk menghubungkan aplikasi Java dengan database MySQL. Tan
+- 

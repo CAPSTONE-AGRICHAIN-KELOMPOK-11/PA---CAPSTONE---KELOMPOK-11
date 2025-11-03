@@ -245,11 +245,20 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 ## 🖥️ Panduan & Antarmuka Pengguna (GUI)
 
 <details>
-<summary><b>1. Menu Login</b></summary>
+<summary><b>1. Menu Utama</b></summary>
 <br>
 <div align="center">
-  <img src="<img width="995" height="620" alt="image" src="https://github.com/user-attachments/assets/91773563-343a-4729-8161-be0b99736e5c" />
-" width="500px">
-  <p align="center"><b><em>1.1. Menu Login</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login untuk masuk ke menu.</p>
+  <img src="https://github.com/user-attachments/assets/6006ced9-2ed5-4a5a-93ba-e91c2d84e24a" <img width="800" height="500" alt="image" src=/>
+  <p align="center"><b><em>1.1. Menu Utama</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
 </div> <br>
+</details>
+
+<details>
+<summary><b>2. Menu Login</b></summary>
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4c98e056-54f7-42c6-9942-8eec59741452" <img width="800" height="500" alt="image" src=/>
+  <p align="center"><b><em>1.2. Menu Login</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
+</div> <br>
+</details>
 

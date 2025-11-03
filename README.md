@@ -23,7 +23,8 @@
 | **NIM:** 2309116009 <br> **Kelas:** Sistem Informasi A '24 <br> [![Camel](https://img.shields.io/badge/-Camel-FFFFFF?logo=github&logoColor=black)](https://github.com/naylacamelia) &nbsp; &nbsp; | **NIM:** 2309116086 <br> **Kelas:** Sistem Informasi C '24 <br> [![Naya](https://img.shields.io/badge/-Naya-FFFFFF?logo=github&logoColor=black)](https://github.com/innayaara) &nbsp; &nbsp; | **NIM:** 2309116101 <br> **Kelas:** Sistem Informasi C '24 <br> [![Nanda](https://img.shields.io/badge/-Nanda-FFFFFF?logo=github&logoColor=black)](https://github.com/Nunanad) &nbsp; &nbsp; | **NIM:** 2309116102 <br> **Kelas:** Sistem Informasi C '24 <br> [![Lutpi](https://img.shields.io/badge/-Lutpi-FFFFFF?logo=github&logoColor=black)](https://github.com/LuthfiDffa) &nbsp; &nbsp; |
 
 ## 🌾 Nama Program
-**AgriChain** adalah Sistem informasi berbasis Java untuk menghubungkan petani dan distributor dalam mengelola hasil panen, melakukan permintaan distribusi, dan memantau status pengiriman produk secara efisien.
+**AgriChain** AgriChain merupakan sebuah sistem informasi pertanian yang berfungsi sebagai wadah digital khusus hasil panen padi. Platform ini mempertemukan petani dan distributor dalam satu sistem terpadu di mana petani dapat mencatat dan menawarkan hasil panennya secara langsung, sementara distributor dapat melakukan permintaan dan pemesanan sesuai kebutuhan. 
+
 
 ## 📝 Deskripsi Program
 Aplikasi **AgriChain** adalah sistem informasi berbasis Java yang dirancang untuk membantu proses distribusi hasil panen antara petani dan distributor secara digital dan terintegrasi yang dikelola oleh admin. Tujuan utama aplikasi ini adalah untuk menciptakan rantai pasok pertanian yang lebih efisien, transparan, dan mudah digunakan oleh semua pihak yang terlibat dalam ekosistem pertanian lokal.  

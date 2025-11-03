@@ -243,3 +243,13 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
   Versi Java Development Kit yang digunakan untuk menjalankan dan mengompilasi program. Mendukung fitur-fitur terbaru Java untuk stabilitas dan keamanan
 
 ## 🖥️ Panduan & Antarmuka Pengguna (GUI)
+
+<details>
+<summary><b>1. Menu Login</b></summary>
+<br>
+<div align="center">
+  <img src="<img width="995" height="620" alt="image" src="https://github.com/user-attachments/assets/91773563-343a-4729-8161-be0b99736e5c" />
+" width="500px">
+  <p align="center"><b><em>1.1. Menu Login</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login untuk masuk ke menu.</p>
+</div> <br>
+

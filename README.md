@@ -377,11 +377,11 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 
   <img src="https://github.com/user-attachments/assets/6ca911f8-4b23-4c80-a752-edce29e4d012" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.6. Menu Admin</em></b><br>
-  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+  Halaman ini menampilkan dua fitur utama bagi Admin yaitu <b>Kelola Petani</b> dan <b>Kelola Distributor</b>. Admin dapat mengatur data pengguna seperti menambah, mengubah, atau menghapus informasi. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama.</p>
 
   <img src="https://github.com/user-attachments/assets/c0ace4f4-2c1e-4284-aab1-1d8abfa92e75" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.7. Menu Kelola Petani</em></b><br>
-  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data petani. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi petani dan <b>Kelola Panen</b> untuk memantau hasil panen yang telah tercatat.</p>
 
   <img src="https://github.com/user-attachments/assets/f2e45dcb-a75f-4014-8a47-3f5ec06629af" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.8. Kelola Akun</em></b><br>

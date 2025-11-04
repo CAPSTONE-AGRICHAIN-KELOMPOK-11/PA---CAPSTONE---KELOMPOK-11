@@ -21,11 +21,11 @@
 | **NIM:** 2309116009 <br> **Kelas:** Sistem Informasi A '24 <br> [![Camel](https://img.shields.io/badge/-Camel-FFFFFF?logo=github&logoColor=black)](https://github.com/naylacamelia) &nbsp; &nbsp; | **NIM:** 2309116086 <br> **Kelas:** Sistem Informasi C '24 <br> [![Naya](https://img.shields.io/badge/-Naya-FFFFFF?logo=github&logoColor=black)](https://github.com/innayaara) &nbsp; &nbsp; | **NIM:** 2309116101 <br> **Kelas:** Sistem Informasi C '24 <br> [![Nanda](https://img.shields.io/badge/-Nanda-FFFFFF?logo=github&logoColor=black)](https://github.com/Nunanad) &nbsp; &nbsp; | **NIM:** 2309116102 <br> **Kelas:** Sistem Informasi C '24 <br> [![Lutpi](https://img.shields.io/badge/-Lutpi-FFFFFF?logo=github&logoColor=black)](https://github.com/LuthfiDffa) &nbsp; &nbsp; |
 
 ## 🌾 Nama Program
-**AgriChain** AgriChain merupakan sebuah sistem informasi pertanian yang berfungsi sebagai wadah digital khusus hasil panen padi. Platform ini mempertemukan petani dan distributor dalam satu sistem terpadu di mana petani dapat mencatat dan menawarkan hasil panennya secara langsung, sementara distributor dapat melakukan permintaan dan pemesanan sesuai kebutuhan. 
+AgriChain merupakan sebuah sistem informasi pertanian yang berfungsi sebagai wadah digital khusus hasil panen padi. Platform ini mempertemukan petani dan distributor dalam satu sistem terpadu di mana petani dapat mencatat dan menawarkan hasil panennya secara langsung, sementara distributor dapat melakukan permintaan dan pemesanan sesuai kebutuhan. 
 
 
 ## 📝 Deskripsi Program
-Aplikasi **AgriChain** adalah sistem informasi berbasis Java yang dirancang untuk membantu proses distribusi hasil panen antara petani dan distributor secara digital dan terintegrasi yang dikelola oleh admin. Tujuan utama aplikasi ini adalah untuk menciptakan rantai pasok pertanian yang lebih efisien, transparan, dan mudah digunakan oleh semua pihak yang terlibat dalam ekosistem pertanian lokal.  
+Aplikasi AgriChain adalah sistem informasi berbasis Java yang dirancang untuk membantu proses distribusi hasil panen antara petani dan distributor secara digital dan terintegrasi yang dikelola oleh admin. Tujuan utama aplikasi ini adalah untuk menciptakan rantai pasok pertanian yang lebih efisien, transparan, dan mudah digunakan oleh semua pihak yang terlibat dalam ekosistem pertanian lokal.  
 
 ---
 
@@ -58,41 +58,41 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara petani dan dis
 
 <details>
   <summary>Use Case</summary>
-  <img src="https://github.com/user-attachments/assets/ecb2dcb2-0fb6-4c20-b41c-4083c0c9caa1" alt="">
+  <img src="https://github.com/user-attachments/assets/756ba630-9549-48a9-b95a-6c2417c66cd1" alt="">
 </details>
-
 
 ## 🔁 Flowchart Program
 
 <details>
   <summary>1. Menu Login</summary>
-  <img src="https://github.com/user-attachments/assets/6a69e964-6f37-4c1c-a6d1-67eb5ade2ec7" alt="">
+  <img src="https://github.com/user-attachments/assets/f630d6be-a69e-4258-a95e-4caee7c7ab82" alt="">
 </details>
 
 <details>
   <summary>2. Menu Admin</summary>
-  <img src="https://github.com/user-attachments/assets/524d32cc-25cc-4da0-a4c4-18c6d00976e6" alt="">
+  <img src="https://github.com/user-attachments/assets/2bc89c91-ce24-497e-bb5e-84bbac70a99c" alt="">
 </details>
 
 <details>
   <summary>3. Menu Petani</summary>
-  <img src="https://github.com/user-attachments/assets/9a95e796-88e3-4d7a-bc96-31b742cb8387" alt="">
+  <img src="https://github.com/user-attachments/assets/a2783650-a352-4c23-bc05-465d99f45606" alt="">
 </details>
 
 <details>
   <summary>4. Menu Distributor</summary>
-  <img src="https://github.com/user-attachments/assets/c71d27c9-f557-4d96-83f2-84302b8c3807" alt="">
+  <img src="https://github.com/user-attachments/assets/76f8c6e2-87d1-4043-a9dd-c51eaa7e245d" alt="">
 </details>
 
 <details>
   <summary>5. Kelola Petani</summary>
-  <img src="https://github.com/user-attachments/assets/7f001eee-0b0e-4244-bb0f-920877927d6e" alt="">
+  <img src="https://github.com/user-attachments/assets/d77c99c3-4dd6-4df5-9980-9c48658cbe2d" alt="">
 </details>
 
 <details>
   <summary>6. Kelola Distributor</summary>
-  <img src="https://github.com/user-attachments/assets/b25bf5f2-a828-4acf-abfd-986899e7022b" alt="">
+  <img src="https://github.com/user-attachments/assets/2161cf25-15d8-477c-8759-c16bf37c0668" alt="">
 </details>
+
 
 ## ⚙️ Fitur Program
 

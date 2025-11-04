@@ -358,7 +358,7 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4c98e056-54f7-42c6-9942-8eec59741452" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.2. Menu Login</em></b><br>
-  Halaman ini digunakan oleh Admin, Petani, dan <b>Distributor untuk masuk ke sistem. Pengguna perlu memasukkan <b>username</b> dan <b>password</b> yang terdaftar untuk mengakses akun masing-masing. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama, sedangkan tautan <b>Daftar</b> mengarahkan ke halaman pendaftaran akun baru.
+  Halaman ini digunakan oleh Admin, <b>Petani</b>, dan <b>Distributor</b> untuk masuk ke sistem. Pengguna perlu memasukkan <b>username</b> dan <b>password</b> yang terdaftar untuk mengakses akun masing-masing.  Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama, sedangkan tautan <b>Daftar</b> mengarahkan ke halaman pendaftaran akun baru.
   </p>
 </div> <br>
 </details>
@@ -366,9 +366,7 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 <details>
 <summary><b>3. Menu Registrasi</b></summary>
 <br>
-
 <div align="center">
-
   <img src="https://github.com/user-attachments/assets/c4394e2e-343a-436e-a068-58852fc451c0" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.3. Halaman Registrasi Utama</em></b><br>
   Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.
@@ -383,7 +381,6 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
   <p align="center"><b><em>1.5. Form Registrasi Distributor</em></b><br>
   Halaman ini digunakan oleh <b>Distributor</b> untuk mendaftar ke dalam sistem. Distributor perlu mengisi data perusahaan dan informasi kontak agar dapat melihat dan mengajukan permintaan hasil panen dari petani.
   </p>
-
 </div>
 <br>
 </details>
@@ -469,12 +466,12 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
   Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.
   </p>
 
-  <img src="image" src="https://github.com/user-attachments/assets/94ada041-d945-4366-a287-81f38c41e078" width="800" height="500" alt="image"/>
+  <img src="https://github.com/user-attachments/assets/94ada041-d945-4366-a287-81f38c41e078" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.17. Info Petani</em></b><br>
   Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.
   </p>
 
-  <img src="image" src="https://github.com/user-attachments/assets/f0550510-4671-4965-81a3-d5b8258a1567" width="800" height="500" alt="image"/>
+  <img src="https://github.com/user-attachments/assets/f0550510-4671-4965-81a3-d5b8258a1567" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.18. Buat Permintaan</em></b><br>
   Halaman ini digunakan oleh Distributor untuk membuat dan mengelola permintaan hasil panen dari petani. Distributor dapat memasukkan <b>jumlah permintaan</b> beserta satuannya, lalu menambahkan data ke dalam tabel. Data permintaan yang telah dibuat akan tampil bersama informasi seperti status dan tanggal permintaan. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama distributor.\
   </p>

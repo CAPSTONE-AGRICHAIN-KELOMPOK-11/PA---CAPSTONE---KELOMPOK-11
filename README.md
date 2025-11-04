@@ -422,17 +422,31 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
   Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
 
   <img src="https://github.com/user-attachments/assets/8023050b-2670-414c-879e-66e11cfdc210" width="800" height="500" alt="image"/>
-  <p align="center"><b><em>1.14. Permintaan</em></b><br>
+  <p align="center"><b><em>1.15. Permintaan</em></b><br>
   Halaman ini digunakan oleh Petani untuk melihat dan mengelola permintaan hasil panen dari distributor. Petani dapat memantau status setiap permintaan, seperti <em>menunggu</em>, <em>disetujui</em>, atau <em>ditolak</em>, serta memperbarui data jika diperlukan. Tombol <b>Simpan</b> berfungsi untuk menyimpan perubahan status, sedangkan tombol <b>Kembali</b> digunakan untuk kembali ke menu utama.</p>
   
 </div>
 <br>
 </details> 
 
+<details>
+<summary><b>6. Menu Distributor</b></summary>
+<br>
 
+<div align="center">
 
+  <img src="https://github.com/user-attachments/assets/797b356d-5d44-4ac1-a35b-1328dbf5a6b9" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.16. Menu Distributor</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
 
+  <img src="image" src="https://github.com/user-attachments/assets/94ada041-d945-4366-a287-81f38c41e078" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.17. Info Petani</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
 
+  <img src="image" src="https://github.com/user-attachments/assets/f0550510-4671-4965-81a3-d5b8258a1567" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.18. Buat Permintaan</em></b><br>
+  Halaman ini digunakan oleh Distributor untuk membuat dan mengelola permintaan hasil panen dari petani. Distributor dapat memasukkan <b>jumlah permintaan</b> beserta satuannya, lalu menambahkan data ke dalam tabel. Data permintaan yang telah dibuat akan tampil bersama informasi seperti status dan tanggal permintaan. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama distributor.</p>
 
-
-
+</div>
+<br>
+</details>  

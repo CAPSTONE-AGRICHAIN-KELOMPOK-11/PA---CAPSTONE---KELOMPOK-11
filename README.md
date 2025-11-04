@@ -1,4 +1,4 @@
-<a name="top"></a>
+<img width="996" height="619" alt="Screenshot 2025-11-04 142339" src="https://github.com/user-attachments/assets/ca8b9469-4fe5-4742-9809-2d009c0b8011" /><a name="top"></a>
 
 <h1 align="center" style="color:#2e8b57;">🌾 CAPSTONE PROJECT KELOMPOK 11 🌾</h1>
 <h1 align="center"><img width="500" height="500" alt="Logo" src="https://github.com/user-attachments/assets/389ffad9-6b59-4bcd-a5ee-0f45441ed1f7" />
@@ -348,4 +348,16 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
   <p align="center"><b><em>1.2. Menu Login</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
 </div> <br>
 </details>
+
+<details>
+<summary><b>3. Menu Registrasi</b></summary>
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c4394e2e-343a-436e-a068-58852fc451c0" <img width="800" height="500" alt="image" src=/>
+  <p align="center"><b><em>1.3. Menu Registrasi</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
+  <img src="" <img width="800" height="500" alt="image" src=/>
+  <p align="center"><b><em>1.3. Menu Registrasi Petani</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
+</div> <br>
+</details>
+
 

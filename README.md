@@ -393,17 +393,16 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 
   <img src="https://github.com/user-attachments/assets/5f28dd23-e785-4015-81ee-bf2e81cd2975" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.10. Menu Kelola Distrubutor</em></b><br>
-  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data distributor. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi distributor dan <b>Kelola Permintaan</b> untuk memantau serta memproses permintaan yang diajukan oleh distributor.</p>
 
-  <img src="https://github.com/user-attachments/assets/0803462e-03ce-46a5-8fdc-42bbfcab4233" width="800" height="500" alt="image"/>
+  <img src="https://github.com/user-attachmens/assets/0803462e-03ce-46a5-8fdc-42bbfcab4233" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.11. Kelola Akun</em></b><br>
-  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data akun distributor. Admin dapat menambahkan, mengedit, atau menghapus informasi seperti nama distributor, username, password, nomor telepon, nama usaha, dan wilayah pasar. Semua data yang diperbarui akan langsung ditampilkan pada tabel di bawahnya.</p>
 
   <img src="https://github.com/user-attachments/assets/8cf3097d-9b78-47dd-b662-69d2c5f23b05" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.12. Kelola Permintaan</em></b><br>
-  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data permintaan dari distributor. Admin dapat menambah, mengedit, atau menghapus data permintaan serta memperbarui status seperti <em>menunggu</em>, <em>disetujui</em>, <em>ditolak</em>, atau <em>dipenuhi</em>. Semua data permintaan ditampilkan dalam tabel di bagian bawah agar mudah dipantau dan diperbarui.</p>
 
-  
 </div>
 <br>
 </details>  

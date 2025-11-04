@@ -1,4 +1,4 @@
-<h1 align="center" style="color:#2e8b57;">🌾 CAPSTONE PROJECT KELOMPOK 11 🌾</h1>
+<img width="994" height="620" alt="image" src="https://github.com/user-attachments/assets/384b600f-082a-4d22-97da-4bf1782e1eba" /><h1 align="center" style="color:#2e8b57;">🌾 CAPSTONE PROJECT KELOMPOK 11 🌾</h1>
 <h1 align="center"><img width="500" height="500" alt="Logo" src="https://github.com/user-attachments/assets/389ffad9-6b59-4bcd-a5ee-0f45441ed1f7" />
 
 <h2 align="center" style="color:#4CAF50;">SELAMAT DATANG DI SISTEM INFORMASI AGRICHAIN!</h2>
@@ -396,11 +396,11 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
   <p align="center"><b><em>1.7. Menu Kelola Petani</em></b><br>
   Halaman ini digunakan oleh Admin untuk mengelola data petani. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi petani dan <b>Kelola Panen</b> untuk memantau hasil panen yang telah tercatat.</p>
 
-  <img src="https://github.com/user-attachments/assets/f2e45dcb-a75f-4014-8a47-3f5ec06629af" width="800" height="500" alt="image"/>
+  <img src="https://github.com/user-attachments/assets/0083f30c-0814-43ba-b269-5e977ecb086b" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.8. Kelola Akun Petani</em></b><br>
   Halaman ini digunakan oleh Admin untuk mengelola data akun petani. Admin dapat menambahkan, mengubah, atau menghapus data seperti nama petani, username, password, nomor telepon, serta informasi lahan. Data yang tersimpan akan langsung ditampilkan pada tabel di bawahnya.</p>
 
-  <img src="https://github.com/user-attachments/assets/ba8daffe-5d2a-451a-a519-587b10918b1e" width="800" height="500" alt="image"/>
+  <img src="https://github.com/user-attachments/assets/5563e28b-b3e2-42c3-a836-6fa8dc92e94f" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.9. Kelola Panen</em></b><br>
   Halaman ini digunakan oleh Admin untuk mengelola data hasil panen dari setiap petani. Admin dapat menambahkan, mengedit, atau menghapus data panen seperti jumlah panen, satuan, tanggal panen, serta ID petani dan admin yang terkait. Data panen yang tersimpan akan ditampilkan pada tabel di bagian bawah.</p>
 
@@ -412,7 +412,7 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
   <p align="center"><b><em>1.11. Kelola Akun Distributor</em></b><br>
   Halaman ini digunakan oleh Admin untuk mengelola data akun distributor. Admin dapat menambahkan, mengedit, atau menghapus informasi seperti nama distributor, username, password, nomor telepon, nama usaha, dan wilayah pasar. Semua data yang diperbarui akan langsung ditampilkan pada tabel di bawahnya.</p>
 
-  <img src="https://github.com/user-attachments/assets/8cf3097d-9b78-47dd-b662-69d2c5f23b05" width="800" height="500" alt="image"/>
+  <img src="https://github.com/user-attachments/assets/b151ec13-9d1c-4551-9b95-a8088aa3add4" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.12. Kelola Permintaan</em></b><br>
   Halaman ini digunakan oleh Admin untuk mengelola data permintaan dari distributor. Admin dapat menambah, mengedit, atau menghapus data permintaan serta memperbarui status seperti <em>menunggu</em>, <em>disetujui</em>, <em>ditolak</em>, atau <em>dipenuhi</em>. Semua data permintaan ditampilkan dalam tabel di bagian bawah agar mudah dipantau dan diperbarui.</p>
 

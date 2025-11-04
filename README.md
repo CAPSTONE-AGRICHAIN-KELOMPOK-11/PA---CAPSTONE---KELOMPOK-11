@@ -40,7 +40,7 @@ Agar aplikasi AgriChain bisa dijalankan dengan baik, berikut beberapa alat dan l
 - **`Jakarta Transaction API (jakarta.transaction-api-2.0.1.jar)`**: Menangani proses commit dan rollback pada transaksi database untuk menjaga integritas data.
 - **`SLF4J (slf4j-api & slf4j-simple 2.0.12)`**: Digunakan sebagai library logging untuk mencatat aktivitas Hibernate dan membantu proses debugging aplikasi.
 - **`FlatLaf (flatlaf-3.2.jar)`**: Library yang mempercantik tampilan GUI berbasis Swing agar terlihat lebih modern dan responsif.
--  **`FlatLaf (flatlaf-3.2.jar)`**: Menyediakan komponen kalender interaktif yang digunakan untuk memilih tanggal secara langsung pada tampilan aplikasi.
+-  **`LGoodDatePicker (11.2.0.jar)`**: Menyediakan komponen kalender interaktif yang digunakan untuk memilih tanggal secara langsung pada tampilan aplikasi.
 
 ---
 

@@ -319,19 +319,25 @@ Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang bena
   
 ## 🧰 Library / Framework yang Digunakan
 
-Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untuk membantu proses pembuatan GUI, pengelolaan database, dan peningkatan tampilan aplikasi. Berikut daftar library dan fungsinya:
+Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework (dikelola melalui Maven dependencies) yang berfungsi untuk membantu proses pengembangan antarmuka (GUI), koneksi ke database, serta pengelolaan data menggunakan Hibernate ORM.. Berikut daftar library dan fungsinya:
 
-- **`mysql-connector-j-9.4.0.jar`**
-  Digunakan untuk menghubungkan aplikasi Java dengan database MySQL. Tanpa library ini, program tidak dapat melakukan proses ambil dan simpan data ke database
-- **`AbsoluteLayout.jar`**
-  Membantu mengatur posisi komponen GUI (seperti tombol, label, dan text field) dengan bebas di tampilan NetBeans.
-- **`jcalendar-1.4.jar`**
-  Memberikan komponen calendar picker agar pengguna bisa memilih tanggal secara otomatis.
-- **`flatlaf-3.4.jar`**
-  Digunakan untuk mempercantik tampilan aplikasi Java Swing. Dengan FlatLaf, tampilan aplikasi menjadi lebih modern, bersih, dan nyaman dilihat.
-- **`JDK 24`**
-  Versi Java Development Kit yang digunakan untuk menjalankan dan mengompilasi program. Mendukung fitur-fitur terbaru Java untuk stabilitas dan keamanan
-
+- **`hibernate-core-6.4.1.Final.jar`**
+  Framework utama untuk ORM (Object Relational Mapping) yang menghubungkan objek Java dengan tabel di database MySQL tanpa menulis query SQL secara langsung.
+- **`jakarta.persistence-api-3.1.0.jar`**
+  Library pendukung Hibernate yang menyediakan standar JPA (Jakarta Persistence API), termasuk anotasi seperti @Entity, @Table, dan @Column.
+- **`mysql-connector-j-8.0.33.jar`**
+  Library penghubung antara aplikasi dan database MySQL agar Hibernate dapat melakukan operasi penyimpanan dan pengambilan data.
+- **`jakarta.transaction-api-2.0.1.jar`**
+  Digunakan untuk manajemen transaksi database seperti commit, rollback, dan pengendalian sesi Hibernate.
+- **`slf4j-api-2.0.12.jar & slf4j-simple-2.0.12.jar`**
+  Framework untuk logging sistem yang membantu mencatat aktivitas program dan debugging pada saat Hibernate atau aplikasi berjalan.
+- **`protobuf-java-3.21.9.jar`**
+  Library internal yang digunakan Hibernate untuk serialisasi data agar proses komunikasi data menjadi lebih cepat dan efisien.
+- **`flatlaf-3.2.jar`**
+  Library tampilan modern untuk Java Swing GUI, membuat antarmuka aplikasi lebih bersih dan profesional.
+- **`LGoodDatePicker-11.2.0.jar`**
+  Library yang menyediakan komponen pemilih tanggal (calendar picker) agar pengguna dapat memilih tanggal secara langsung melalui antarmuka aplikasi.
+  
 ## 🖥️ Panduan & Antarmuka Pengguna (GUI)
 
 <details>

@@ -356,22 +356,22 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 
 Berikut daftar library dan fungsinya:
 
+- **`LGoodDatePicker-11.2.0.jar`**
+  Library yang menyediakan komponen pemilih tanggal (calendar picker) agar pengguna dapat memilih tanggal secara langsung melalui antarmuka aplikasi.
+- **`flatlaf-3.2.jar`**
+  Library tampilan modern untuk Java Swing GUI, membuat antarmuka aplikasi lebih bersih dan profesional.
 - **`hibernate-core-6.4.1.Final.jar`**
   Framework utama untuk ORM (Object Relational Mapping) yang menghubungkan objek Java dengan tabel di database MySQL tanpa menulis query SQL secara langsung.
 - **`jakarta.persistence-api-3.1.0.jar`**
   Library pendukung Hibernate yang menyediakan standar JPA (Jakarta Persistence API), termasuk anotasi seperti @Entity, @Table, dan @Column.
 - **`mysql-connector-j-8.0.33.jar`**
   Library penghubung antara aplikasi dan database MySQL agar Hibernate dapat melakukan operasi penyimpanan dan pengambilan data.
-- **`jakarta.transaction-api-2.0.1.jar`**
-  Digunakan untuk manajemen transaksi database seperti commit, rollback, dan pengendalian sesi Hibernate.
 - **`slf4j-api-2.0.12.jar & slf4j-simple-2.0.12.jar`**
   Framework untuk logging sistem yang membantu mencatat aktivitas program dan debugging pada saat Hibernate atau aplikasi berjalan.
+- **`jakarta.transaction-api-2.0.1.jar`**
+  Digunakan untuk manajemen transaksi database seperti commit, rollback, dan pengendalian sesi Hibernate.
 - **`protobuf-java-3.21.9.jar`**
   Library internal yang digunakan Hibernate untuk serialisasi data agar proses komunikasi data menjadi lebih cepat dan efisien.
-- **`flatlaf-3.2.jar`**
-  Library tampilan modern untuk Java Swing GUI, membuat antarmuka aplikasi lebih bersih dan profesional.
-- **`LGoodDatePicker-11.2.0.jar`**
-  Library yang menyediakan komponen pemilih tanggal (calendar picker) agar pengguna dapat memilih tanggal secara langsung melalui antarmuka aplikasi.
   
 ## 🖥️ Panduan & Antarmuka Pengguna (GUI)
 

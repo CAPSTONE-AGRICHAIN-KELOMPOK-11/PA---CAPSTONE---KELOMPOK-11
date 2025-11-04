@@ -57,39 +57,39 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara petani dan dis
 ## 📈 Use Case Diagram
 
 <details>
-  <summary>Use Case</summary>
+  <summary><b>Use Case</b></summary>
   <img src="https://github.com/user-attachments/assets/756ba630-9549-48a9-b95a-6c2417c66cd1" alt="">
 </details>
 
 ## 🔁 Flowchart Program
 
 <details>
-  <summary>1. Menu Login</summary>
+  <summary><b>1. Menu Login</b></summary>
   <img src="https://github.com/user-attachments/assets/f630d6be-a69e-4258-a95e-4caee7c7ab82" alt="">
 </details>
 
 <details>
-  <summary>2. Menu Admin</summary>
+  <summary><b>2. Menu Admin</b></summary>
   <img src="https://github.com/user-attachments/assets/2bc89c91-ce24-497e-bb5e-84bbac70a99c" alt="">
 </details>
 
 <details>
-  <summary>3. Menu Petani</summary>
+  <summary><b>3. Menu Petani</b></summary>
   <img src="https://github.com/user-attachments/assets/a2783650-a352-4c23-bc05-465d99f45606" alt="">
 </details>
 
 <details>
-  <summary>4. Menu Distributor</summary>
+  <summary>4. <b>Menu Distributor</b></summary>
   <img src="https://github.com/user-attachments/assets/76f8c6e2-87d1-4043-a9dd-c51eaa7e245d" alt="">
 </details>
 
 <details>
-  <summary>5. Kelola Petani</summary>
+  <summary>5. <b>Kelola Petani</b></summary>
   <img src="https://github.com/user-attachments/assets/d77c99c3-4dd6-4df5-9980-9c48658cbe2d" alt="">
 </details>
 
 <details>
-  <summary>6. Kelola Distributor</summary>
+  <summary>6. <b>Kelola Distributor</b></summary>
   <img src="https://github.com/user-attachments/assets/2161cf25-15d8-477c-8759-c16bf37c0668" alt="">
 </details>
 

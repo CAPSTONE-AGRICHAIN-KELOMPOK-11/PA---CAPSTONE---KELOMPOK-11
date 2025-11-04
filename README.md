@@ -333,8 +333,9 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 <summary><b>1. Menu Utama</b></summary>
 <br>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/6006ced9-2ed5-4a5a-93ba-e91c2d84e24a" <img width="800" height="500" alt="image" src=/>
-  <p align="center"><b><em>1.1. Menu Utama</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
+  <img src="https://github.com/user-attachments/assets/6006ced9-2ed5-4a5a-93ba-e91c2d84e24a" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.1. Menu Utama</em></b><br>
+  Halaman ini merupakan tampilan awal aplikasi AgriChain. Pengguna dapat melakukan <b>login</b> untuk masuk ke sistem, atau memilih opsi <b>daftar</b> jika belum memiliki akun. Menu ini menjadi pintu masuk utama bagi Admin, Petani, maupun Distributor sebelum mengakses fitur masing-masing.</p>
 </div> <br>
 </details>
 
@@ -342,11 +343,12 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 <summary><b>2. Menu Login</b></summary>
 <br>
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4c98e056-54f7-42c6-9942-8eec59741452" <img width="800" height="500" alt="image" src=/>
-  <p align="center"><b><em>1.2. Menu Login</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
+  <img src="https://github.com/user-attachments/assets/4c98e056-54f7-42c6-9942-8eec59741452" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.2. Menu Login</em></b><br>
+  Halaman ini digunakan oleh Admin, Petani, dan <b>Distributor untuk masuk ke sistem. Pengguna perlu memasukkan <b>username</b> dan <b>password</b> yang terdaftar untuk mengakses akun masing-masing. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama, sedangkan tautan <b>Daftar</b> mengarahkan ke halaman pendaftaran akun baru.</p>
 </div> <br>
 </details>
-
+    
 <details>
 <summary><b>3. Menu Registrasi</b></summary>
 <br>

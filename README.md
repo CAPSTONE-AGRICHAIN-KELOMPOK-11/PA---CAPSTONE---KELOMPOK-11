@@ -140,7 +140,7 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi AgriCha
 
 ### 🖥️ 4. Fitur Umum
 - **Login dan Register Sesuai Role**  
-  Pengguna baru dapat mendaftar sebagai *Petani* atau *Distributor*, dan sistem akan menampilkan halaman sesuai perannya.  
+  Pengguna baru dapat mendaftar sebagai Petani atau Distributor, dan sistem akan menampilkan halaman sesuai perannya.  
 - **Koneksi Database Otomatis**  
   Semua data tersimpan otomatis di MySQL menggunakan JDBC Connector.  
 - **Tampilan GUI Menarik dan Responsif**  
@@ -237,14 +237,14 @@ Secara umum, struktur foldernya adalah sebagai berikut:
   Package ini berisi seluruh logika utama aplikasi (business logic) yang mengatur alur kerja antara tampilan (view) dan data (model). Controller menerima input dari user melalui form GUI, memproses data, lalu menghubungkannya ke database lewat package Database.
 
 Berikut beberapa file penting di dalamnya:
-- **`BaseController.java`**: Kelas dasar yang menjadi induk bagi controller lain, berisi fungsi umum seperti validasi input atau pengaturan koneksi awal.  
-- **`LoginController.java`**: Mengatur proses login untuk semua pengguna (Admin, Petani, Distributor).  
-- **`RegisterController.java`**: Menangani proses pendaftaran akun baru ke dalam database.    
-- **`distributorController.java`**: Mengatur aktivitas distributor seperti membuat permintaan hasil panen.  
-- **`hasilPanenController.java`**: Bertanggung jawab atas proses penambahan, pengeditan, dan penghapusan data hasil panen oleh petani.  
-- **`permintaanController.java`**: Mengatur data permintaan hasil panen dari distributor dan statusnya.  
-- **`petaniController.java`**: Mengelola data petani, termasuk sawah, lokasi, dan luas lahan.  
-- **`generateID.java`**: Membuat ID unik otomatis untuk setiap data baru agar tidak terjadi duplikasi di database.
+- **`BaseController.java`**: Kelas dasar (abstrak) yang menyimpan fungsi umum yang dipakai controller lain, misalnya pola CRUD/validasi sederhana agar kode tidak duplikat.
+- **`LoginController.java`**: Mengelola proses login untuk Admin, Petani, dan Distributor (cek username/password, arahkan ke dashboard).
+- **`RegisterController.java`**: Mengelola pendaftaran akun baru (validasi input, simpan user). 
+- **`distributorController.java`**: Logika untuk fitur milik Distributor, termasuk melihat info petani dan membuat permintaan.
+- **`generateID.java`**: Utilitas untuk membuat ID unik otomatis (mis. PRM01, PAN01, dst.) agar tidak terjadi bentrok ID.
+- **`hasilPanenController.java`**: Mengatur kelola hasil panen (tambah, edit, hapus, muat tabel) milik Petani/Admin. 
+- **`permintaanController.java`**: Mengelola permintaan hasil panen (tambah, ubah status: menunggu/disetujui/ditolak/dipenuhi, muat tabel).
+- **`petaniController.java`**: Mengelola data Petani (profil, kontak, lokasi/luas lahan, muat tabel). 
 
 Package ini berfungsi sebagai “otak” dari aplikasi yang mengatur hubungan antar komponen dan memastikan logika berjalan dengan benar.
 </details> 

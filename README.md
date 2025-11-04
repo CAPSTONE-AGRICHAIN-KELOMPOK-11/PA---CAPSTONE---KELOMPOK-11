@@ -408,7 +408,7 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 </details>  
 
 <details>
-<summary><b>5. Menu Admin</b></summary>
+<summary><b>5. Menu Petani</b></summary>
 <br>
 
 <div align="center">

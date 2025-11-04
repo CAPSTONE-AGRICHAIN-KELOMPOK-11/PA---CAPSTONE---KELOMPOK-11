@@ -90,8 +90,9 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara petani dan dis
 
 <details>
   <summary>6. Kelola Distributor</summary>
-  <img src="https://github.com/user-attachments/assets/2107ae96-a895-4b46-bf70-fdf101a09c40" alt="">
+  <img src="https://github.com/user-attachments/assets/4bc41a6b-9fe9-4a67-87c9-3fbb148d23c8" alt="">
 </details>
+
 
 ## ⚙️ Fitur Program
 

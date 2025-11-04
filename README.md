@@ -228,6 +228,9 @@ meskipun cara kerjanya bisa berbeda sesuai kebutuhan masing-masing entitas.
 
 Struktur folder pada proyek **AgriChain** dibuat berdasarkan pola **MVC (Model-View-Controller)** agar setiap bagian kode memiliki tanggung jawab yang jelas. Dengan struktur seperti ini, pengembangan aplikasi jadi lebih mudah, rapi, dan terorganisir antara tampilan (View), logika (Controller), dan data (Model).
 
+<img width="310" height="211" alt="image" src="https://github.com/user-attachments/assets/e3362218-1b84-4cb9-9e82-1e73e88b8157" />
+
+
 Secara umum, struktur foldernya adalah sebagai berikut:
 
 <details>

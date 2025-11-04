@@ -146,6 +146,82 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi AgriCha
 
 ## 💡 Penerapan OOP
 
+<details>
+<summary><b>1. Encapsulation</b></summary>
+
+<img width="704" height="235" alt="image" src="https://github.com/user-attachments/assets/8b74ec32-44e1-4e94-b78f-7436035f755b" />
+
+Salah satu contoh penerapannya terdapat pada class `Petani`.  
+Setiap atribut seperti `idPetani`, `namaLengkap`, `username`, dan lainnya diberi modifier **private**, artinya data tersebut tidak bisa diakses langsung dari luar class.  
+Akses hanya bisa dilakukan melalui **getter** dan **setter** yang disediakan, sehingga data dalam objek terlindungi dari perubahan sembarangan.  
+
+Prinsip ini juga diterapkan pada beberapa class lain seperti di bagian **Controller** dan **Database**, terutama untuk atribut yang bersifat sensitif.
+
+</details>
+
+---
+
+<details>
+<summary><b>2. Inheritance</b></summary>
+
+<img width="492" height="177" alt="image" src="https://github.com/user-attachments/assets/e8d7997e-fa53-4875-8b21-5ac571133bb8" />
+
+<img width="668" height="50" alt="image" src="https://github.com/user-attachments/assets/7e61ce44-62f3-4bd5-a19d-67621101912f" />
+
+Beberapa class pada package **Controller** mewarisi struktur dasar CRUD dari class abstrak `BaseController`.  
+Artinya, controller-controller turunan tidak perlu menulis ulang method umum seperti `insert()`, `update()`, dan `delete()`,  
+namun cukup **meng-override** method tersebut sesuai kebutuhan masing-masing entitas.
+
+</details>
+
+---
+
+<details>
+<summary><b>3. Polymorphism</b></summary>
+
+<img width="1007" height="435" alt="image" src="https://github.com/user-attachments/assets/8daf8257-17fa-4ae4-a155-d69724e0e6fa" />
+
+Penerapan polymorphism terlihat pada penggunaan method dengan nama yang sama di berbagai class pada package **Controller**,  
+seperti `insert()` pada `petaniController`, `distributorController`, dan `permintaanController`.  
+
+Meskipun nama method-nya sama, masing-masing memiliki **implementasi yang berbeda** sesuai dengan jenis data yang dikelola.  
+Hal ini menunjukkan bahwa satu nama method dapat memiliki banyak bentuk perilaku tergantung pada objek yang memanggilnya.
+
+</details>
+
+---
+
+<details>
+<summary><b>4. Abstraction</b></summary>
+
+<img width="577" height="127" alt="image" src="https://github.com/user-attachments/assets/6ad67e8c-b21d-4dc7-9d38-bf69e9e86dfc" />
+
+Penerapan abstraction terdapat pada class `BaseController`, yang berfungsi sebagai **kerangka dasar bagi semua controller**.  
+Class ini hanya mendefinisikan method abstrak seperti `insert()`, `update()`, dan `delete()` tanpa menjelaskan detail implementasinya.  
+
+Setiap controller turunan kemudian mengisi logika sesuai kebutuhan masing-masing.  
+Dengan cara ini, program menyembunyikan detail teknis yang kompleks dan hanya menampilkan bagian penting yang perlu diketahui.
+
+</details>
+
+---
+
+<details>
+<summary><b>5. Interface</b></summary>
+
+<img width="423" height="134" alt="image" src="https://github.com/user-attachments/assets/0b9131f1-887a-4380-bda9-be20b05fc21e" />
+
+<img width="687" height="63" alt="image" src="https://github.com/user-attachments/assets/93de5a91-9974-4f54-a828-0b51a8af66a5" />
+
+Penerapan interface terlihat pada class `CRUDService`, yang berisi kumpulan method abstrak seperti `insert()`, `update()`, `delete()`, dan `getAll()`.  
+Interface ini menjadi **standar perilaku** yang harus diikuti oleh setiap class service, seperti `petaniService`, `adminService`, dan `distributorService`.  
+
+Dengan mengimplementasikan `CRUDService`, semua service tersebut dijamin memiliki struktur dan fungsi dasar yang sama,  
+meskipun cara kerjanya bisa berbeda sesuai kebutuhan masing-masing entitas.
+
+</details>
+
+
 ## 📂 Struktur Folder / Package
 
 Struktur folder pada proyek **AgriChain** dibuat berdasarkan pola **MVC (Model-View-Controller)** agar setiap bagian kode memiliki tanggung jawab yang jelas. Dengan struktur seperti ini, pengembangan aplikasi jadi lebih mudah, rapi, dan terorganisir antara tampilan (View), logika (Controller), dan data (Model).
@@ -169,6 +245,8 @@ Berikut beberapa file penting di dalamnya:
 
 Package ini berfungsi sebagai “otak” dari aplikasi yang mengatur hubungan antar komponen dan memastikan logika berjalan dengan benar.
 </details> 
+
+---
 
 <details>
   <summary>🗄️ Database</summary>
@@ -195,6 +273,8 @@ Package **Database** berfungsi untuk mengatur seluruh proses **koneksi dan komun
   Termasuk menambah permintaan baru, memperbarui status (misalnya menunggu, diterima, atau selesai), serta menampilkan daftar permintaan yang aktif.
 </details>
 
+---
+
 <details>
   <summary>🧩 Model</summary>
 Package ini berisi **kelas-kelas representasi data (entity class)** yang mencerminkan tabel di database.  
@@ -209,6 +289,8 @@ Setiap model memiliki atribut dan metode *getter/setter* yang digunakan untuk me
 Package ini berperan sebagai wadah data yang dikirim atau diterima antar komponen aplikasi.
 </details>
 
+---
+
 <details>
   <summary>🔐 Session</summary>
 Package ini berfungsi untuk **menyimpan informasi pengguna yang sedang login** agar bisa digunakan di berbagai tampilan (form).  
@@ -219,6 +301,8 @@ Misalnya menyimpan ID user, nama, dan perannya (Admin, Petani, Distributor).
 Dengan Session, user tidak perlu login berulang kali saat berpindah halaman.
 </details>
 
+---
+
 <details>
   <summary>🚀 main</summary>
 Package ini berisi file utama yang menjalankan program.
@@ -227,6 +311,8 @@ Package ini berisi file utama yang menjalankan program.
 
 Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang benar saat pertama kali dijalankan.
 </details>
+
+---
   
 ## 🧰 Library / Framework yang Digunakan
 

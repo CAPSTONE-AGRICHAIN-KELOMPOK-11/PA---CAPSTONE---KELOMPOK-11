@@ -31,13 +31,16 @@ Aplikasi **AgriChain** adalah sistem informasi berbasis Java yang dirancang untu
 
 ### ⚙️ 1. Kebutuhan Sistem  
 Agar aplikasi AgriChain bisa dijalankan dengan baik, berikut beberapa alat dan library yang digunakan dalam pengembangannya:  
-- **`JDK 24`**: Digunakan untuk menjalankan dan mengompilasi program berbasis Java. Versi ini mendukung fitur terbaru Java untuk performa dan keamanan yang lebih baik.  
-- **`NetBeans IDE 22`**: Digunakan sebagai tempat membuat dan mengedit tampilan aplikasi (GUI) serta menulis kode Java dengan mudah.  
-- **`XAMPP`**: Menyediakan server lokal untuk menjalankan database MySQL agar aplikasi dapat menyimpan dan mengelola data pengguna.  
-- **`MySQL Connector (mysql-connector-j-9.4.0.jar)`**: Berfungsi sebagai penghubung antara aplikasi Java dan database MySQL, memungkinkan pertukaran data antar keduanya.  
-- **`Absolute Layout (AbsoluteLayout.jar)`**: Library tambahan untuk memudahkan pengaturan posisi komponen GUI secara presisi di dalam NetBeans.  
-- **`JCalendar (jcalendar-1.4.jar)`**: Digunakan untuk menampilkan dan memilih tanggal secara otomatis dalam tampilan aplikasi.  
-- **`FlatLaf (flatlaf-3.4.jar)`**: Library untuk mempercantik tampilan GUI agar terlihat lebih modern dan rapi.
+- **`JDK 24`**: Digunakan untuk menjalankan dan mengompilasi program berbasis Java. Versi ini mendukung fitur-fitur modern untuk meningkatkan performa dan keamanan aplikasi.
+- **`Apache NetBeans IDE 22`**: Digunakan sebagai lingkungan pengembangan (IDE) untuk menulis kode, mendesain tampilan GUI, serta menjalankan proyek Maven secara efisien.
+- **`XAMPP`**: Berfungsi sebagai server lokal yang menyediakan layanan MySQL untuk penyimpanan data aplikasi.  
+- **`Hibernate ORM (hibernate-core-6.4.1.Final.jar)`**: Framework utama yang digunakan untuk mengelola komunikasi antara objek Java dan tabel di database MySQL melalui konsep Object Relational Mapping (ORM).
+- **`Jakarta Persistence API (jakarta.persistence-api-3.1.0.jar)`**: Menyediakan standar anotasi dan fungsi JPA yang digunakan Hibernate untuk memetakan class Java ke struktur tabel database.
+- **`MySQL Connector (mysql-connector-j-8.0.33.jar)`**: Berfungsi sebagai penghubung antara Hibernate dengan database MySQL agar proses pengambilan dan penyimpanan data dapat dilakukan dengan lancar.
+- **`Jakarta Transaction API (jakarta.transaction-api-2.0.1.jar)`**: Menangani proses commit dan rollback pada transaksi database untuk menjaga integritas data.
+- **`SLF4J (slf4j-api & slf4j-simple 2.0.12)`**: Digunakan sebagai library logging untuk mencatat aktivitas Hibernate dan membantu proses debugging aplikasi.
+- **`FlatLaf (flatlaf-3.2.jar)`**: Library yang mempercantik tampilan GUI berbasis Swing agar terlihat lebih modern dan responsif.
+-  **`FlatLaf (flatlaf-3.2.jar)`**: Menyediakan komponen kalender interaktif yang digunakan untuk memilih tanggal secara langsung pada tampilan aplikasi.
 
 ---
 

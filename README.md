@@ -226,10 +226,9 @@ meskipun cara kerjanya bisa berbeda sesuai kebutuhan masing-masing entitas.
 
 ## 📂 Struktur Folder / Package
 
-Struktur folder pada proyek **AgriChain** dibuat berdasarkan pola **MVC (Model-View-Controller)** agar setiap bagian kode memiliki tanggung jawab yang jelas. Dengan struktur seperti ini, pengembangan aplikasi jadi lebih mudah, rapi, dan terorganisir antara tampilan (View), logika (Controller), dan data (Model).
+Struktur folder pada proyek AgriChain dirancang menggunakan pola MVC (Model–View–Controller) untuk memisahkan antara logika bisnis, tampilan, dan data. Pola ini membuat pengembangan aplikasi lebih mudah, teratur, dan efisien. Folder Model berisi kelas-kelas entitas yang mewakili data, View berisi tampilan GUI menggunakan Java Swing, dan Controller mengatur alur logika antara keduanya. Selain itu, terdapat package pendukung seperti Database untuk pengelolaan data menggunakan Hibernate, Session untuk menyimpan data pengguna yang sedang login, Resources untuk file pendukung seperti ikon dan gambar, serta Main sebagai titik awal eksekusi program.
 
 <img width="310" height="211" alt="image" src="https://github.com/user-attachments/assets/e3362218-1b84-4cb9-9e82-1e73e88b8157" />
-
 
 Secara umum, struktur foldernya adalah sebagai berikut:
 

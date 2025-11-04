@@ -237,8 +237,7 @@ Secara umum, struktur foldernya adalah sebagai berikut:
 Berikut beberapa file penting di dalamnya:
 - **`BaseController.java`**: Kelas dasar yang menjadi induk bagi controller lain, berisi fungsi umum seperti validasi input atau pengaturan koneksi awal.  
 - **`LoginController.java`**: Mengatur proses login untuk semua pengguna (Admin, Petani, Distributor).  
-- **`RegisterController.java`**: Menangani proses pendaftaran akun baru ke dalam database.  
-- **`adminController.java`**: Mengatur fitur-fitur khusus admin seperti kelola akun distributor dan petani.  
+- **`RegisterController.java`**: Menangani proses pendaftaran akun baru ke dalam database.    
 - **`distributorController.java`**: Mengatur aktivitas distributor seperti membuat permintaan hasil panen.  
 - **`hasilPanenController.java`**: Bertanggung jawab atas proses penambahan, pengeditan, dan penghapusan data hasil panen oleh petani.  
 - **`permintaanController.java`**: Mengatur data permintaan hasil panen dari distributor dan statusnya.  
@@ -253,7 +252,8 @@ Package ini berfungsi sebagai “otak” dari aplikasi yang mengatur hubungan an
 <details>
   <summary>🗄️ Database</summary>
 Package Database berfungsi untuk mengatur seluruh proses komunikasi dan pengelolaan data antara aplikasi AgriChain dengan database MySQL menggunakan Hibernate dengan penerapan DAO (Data Access Object) pattern.
-Setiap class di dalamnya berperan sebagai service layer yang menjadi penghubung antara controller dan database, sehingga logika bisnis dan logika data terpisah dengan jelas. Pendekatan ini membuat kode lebih terstruktur, efisien, dan mudah diperbarui jika terjadi perubahan pada struktur database.
+Setiap class di package ini berperan sebagai service layer yang menjadi penghubung antara controller dan database, sehingga logika bisnis dan logika data tetap terpisah.
+Struktur ini membuat kode menjadi lebih rapi, modular, dan mudah dikelola ketika terjadi perubahan di skema database.
 
 - **`Koneksi.java`**: Mengatur koneksi utama ke MySQL.  
   File ini menyimpan konfigurasi seperti URL database, username, dan password.  

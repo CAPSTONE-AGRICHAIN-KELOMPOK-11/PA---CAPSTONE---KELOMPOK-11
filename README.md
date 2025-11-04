@@ -356,27 +356,29 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/4c98e056-54f7-42c6-9942-8eec59741452" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.2. Menu Login</em></b><br>
-  Halaman ini digunakan oleh Admin, Petani, dan <b>Distributor untuk masuk ke sistem. Pengguna perlu memasukkan <b>username</b> dan <b>password</b> yang terdaftar untuk mengakses akun masing-masing. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama, sedangkan tautan <b>Daftar</b> mengarahkan ke halaman pendaftaran akun baru.</p>
+  Halaman ini digunakan oleh <b>Admin</b>, <b>Petani</b>, dan <b>Distributor</b> untuk masuk ke sistem. Pengguna perlu memasukkan <b>username</b> dan <b>password</b> yang terdaftar untuk mengakses akun masing-masing. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama, sedangkan tautan <b>Daftar</b> mengarahkan ke halaman pendaftaran akun baru.
+  </p>
 </div> <br>
 </details>
     
 <details>
 <summary><b>3. Menu Registrasi</b></summary>
 <br>
-
 <div align="center">
-
   <img src="https://github.com/user-attachments/assets/c4394e2e-343a-436e-a068-58852fc451c0" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.3. Halaman Registrasi Utama</em></b><br>
-  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/ca8b9469-4fe5-4742-9809-2d009c0b8011" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.4. Form Registrasi Petani</em></b><br>
-  Halaman ini digunakan oleh <b>Petani</b> untuk membuat akun baru. Petani dapat mengisi data pribadi seperti nama, username, dan password agar dapat mengakses sistem serta mengelola data hasil panennya.</p>
+  Halaman ini digunakan oleh <b>Petani</b> untuk membuat akun baru. Petani dapat mengisi data pribadi seperti nama, username, dan password agar dapat mengakses sistem serta mengelola data hasil panennya.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/68bfd802-9060-4b53-8a0d-3964f9375886" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.5. Form Registrasi Distributor</em></b><br>
-  Halaman ini digunakan oleh <b>Distributor</b> untuk mendaftar ke dalam sistem. Distributor perlu mengisi data perusahaan dan informasi kontak agar dapat melihat dan mengajukan permintaan hasil panen dari petani.</p>
+  Halaman ini digunakan oleh <b>Distributor</b> untuk mendaftar ke dalam sistem. Distributor perlu mengisi data perusahaan dan informasi kontak agar dapat melihat dan mengajukan permintaan hasil panen dari petani.
+  </p>
 
 </div>
 <br>
@@ -390,23 +392,28 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 
   <img src="https://github.com/user-attachments/assets/6ca911f8-4b23-4c80-a752-edce29e4d012" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.6. Menu Admin</em></b><br>
-  Halaman ini menampilkan dua fitur utama bagi Admin yaitu <b>Kelola Petani</b> dan <b>Kelola Distributor</b>. Admin dapat mengatur data pengguna seperti menambah, mengubah, atau menghapus informasi. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama.</p>
+  Halaman ini menampilkan dua fitur utama bagi Admin yaitu <b>Kelola Petani</b> dan <b>Kelola Distributor</b>. Admin dapat mengatur data pengguna seperti menambah, mengubah, atau menghapus informasi. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/c0ace4f4-2c1e-4284-aab1-1d8abfa92e75" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.7. Menu Kelola Petani</em></b><br>
-  Halaman ini digunakan oleh Admin untuk mengelola data petani. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi petani dan <b>Kelola Panen</b> untuk memantau hasil panen yang telah tercatat.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data petani. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi petani dan <b>Kelola Panen</b> untuk memantau hasil panen yang telah tercatat.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/0083f30c-0814-43ba-b269-5e977ecb086b" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.8. Kelola Akun Petani</em></b><br>
-  Halaman ini digunakan oleh Admin untuk mengelola data akun petani. Admin dapat menambahkan, mengubah, atau menghapus data seperti nama petani, username, password, nomor telepon, serta informasi lahan. Data yang tersimpan akan langsung ditampilkan pada tabel di bawahnya.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data akun petani. Admin dapat menambahkan, mengubah, atau menghapus data seperti nama petani, username, password, nomor telepon, serta informasi lahan. Data yang tersimpan akan langsung ditampilkan pada tabel di bawahnya.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/5563e28b-b3e2-42c3-a836-6fa8dc92e94f" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.9. Kelola Panen</em></b><br>
-  Halaman ini digunakan oleh Admin untuk mengelola data hasil panen dari setiap petani. Admin dapat menambahkan, mengedit, atau menghapus data panen seperti jumlah panen, satuan, tanggal panen, serta ID petani dan admin yang terkait. Data panen yang tersimpan akan ditampilkan pada tabel di bagian bawah.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data hasil panen dari setiap petani. Admin dapat menambahkan, mengedit, atau menghapus data panen seperti jumlah panen, satuan, tanggal panen, serta ID petani dan admin yang terkait. Data panen yang tersimpan akan ditampilkan pada tabel di bagian bawah.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/5f28dd23-e785-4015-81ee-bf2e81cd2975" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.10. Menu Kelola Distrubutor</em></b><br>
-  Halaman ini digunakan oleh Admin untuk mengelola data distributor. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi distributor dan <b>Kelola Permintaan</b> untuk memantau serta memproses permintaan yang diajukan oleh distributor.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data distributor. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi distributor dan <b>Kelola Permintaan</b> untuk memantau serta memproses permintaan yang diajukan oleh distributor.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/c8f1d5f8-7a9e-45d6-88ef-c10e9293b5ed" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.11. Kelola Akun Distributor</em></b><br>
@@ -414,7 +421,8 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 
   <img src="https://github.com/user-attachments/assets/b151ec13-9d1c-4551-9b95-a8088aa3add4" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.12. Kelola Permintaan</em></b><br>
-  Halaman ini digunakan oleh Admin untuk mengelola data permintaan dari distributor. Admin dapat menambah, mengedit, atau menghapus data permintaan serta memperbarui status seperti <em>menunggu</em>, <em>disetujui</em>, <em>ditolak</em>, atau <em>dipenuhi</em>. Semua data permintaan ditampilkan dalam tabel di bagian bawah agar mudah dipantau dan diperbarui.</p>
+  Halaman ini digunakan oleh Admin untuk mengelola data permintaan dari distributor. Admin dapat menambah, mengedit, atau menghapus data permintaan serta memperbarui status seperti <em>menunggu</em>, <em>disetujui</em>, <em>ditolak</em>, atau <em>dipenuhi</em>. Semua data permintaan ditampilkan dalam tabel di bagian bawah agar mudah dipantau dan diperbarui.
+  </p>
 
 </div>
 <br>
@@ -428,15 +436,18 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 
   <img src="https://github.com/user-attachments/assets/29ba5ca8-d595-44c2-bfee-cfab9d774a4d" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.13. Menu Petani</em></b><br>
-  Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+  Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/dee29d9f-6af3-4beb-9494-d18489b503c0" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.14. Hasil Panen</em></b><br>
-  Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+  Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.
+  </p>
 
   <img src="https://github.com/user-attachments/assets/8023050b-2670-414c-879e-66e11cfdc210" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.15. Permintaan</em></b><br>
-  Halaman ini digunakan oleh Petani untuk melihat dan mengelola permintaan hasil panen dari distributor. Petani dapat memantau status setiap permintaan, seperti <em>menunggu</em>, <em>disetujui</em>, atau <em>ditolak</em>, serta memperbarui data jika diperlukan. Tombol <b>Simpan</b> berfungsi untuk menyimpan perubahan status, sedangkan tombol <b>Kembali</b> digunakan untuk kembali ke menu utama.</p>
+  Halaman ini digunakan oleh Petani untuk melihat dan mengelola permintaan hasil panen dari distributor. Petani dapat memantau status setiap permintaan, seperti <em>menunggu</em>, <em>disetujui</em>, atau <em>ditolak</em>, serta memperbarui data jika diperlukan. Tombol <b>Simpan</b> berfungsi untuk menyimpan perubahan status, sedangkan tombol <b>Kembali</b> digunakan untuk kembali ke menu utama.
+  </p>
   
 </div>
 <br>
@@ -450,15 +461,18 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 
   <img src="https://github.com/user-attachments/assets/797b356d-5d44-4ac1-a35b-1328dbf5a6b9" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.16. Menu Distributor</em></b><br>
-  Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+  Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.
+  </p>
 
   <img src="image" src="https://github.com/user-attachments/assets/94ada041-d945-4366-a287-81f38c41e078" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.17. Info Petani</em></b><br>
-  Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+  Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.
+  </p>
 
   <img src="image" src="https://github.com/user-attachments/assets/f0550510-4671-4965-81a3-d5b8258a1567" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.18. Buat Permintaan</em></b><br>
-  Halaman ini digunakan oleh Distributor untuk membuat dan mengelola permintaan hasil panen dari petani. Distributor dapat memasukkan <b>jumlah permintaan</b> beserta satuannya, lalu menambahkan data ke dalam tabel. Data permintaan yang telah dibuat akan tampil bersama informasi seperti status dan tanggal permintaan. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama distributor.</p>
+  Halaman ini digunakan oleh Distributor untuk membuat dan mengelola permintaan hasil panen dari petani. Distributor dapat memasukkan <b>jumlah permintaan</b> beserta satuannya, lalu menambahkan data ke dalam tabel. Data permintaan yang telah dibuat akan tampil bersama informasi seperti status dan tanggal permintaan. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama distributor.
+  </p>
 
 </div>
 <br>

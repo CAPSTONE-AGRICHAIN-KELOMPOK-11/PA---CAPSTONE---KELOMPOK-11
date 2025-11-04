@@ -153,9 +153,7 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi AgriCha
 
 <img width="704" height="235" alt="image" src="https://github.com/user-attachments/assets/8b74ec32-44e1-4e94-b78f-7436035f755b" />
 
-Salah satu contoh penerapannya terdapat pada class `Petani`.  
-Setiap atribut seperti `idPetani`, `namaLengkap`, `username`, dan lainnya diberi modifier **private**, artinya data tersebut tidak bisa diakses langsung dari luar class.  
-Akses hanya bisa dilakukan melalui **getter** dan **setter** yang disediakan, sehingga data dalam objek terlindungi dari perubahan sembarangan.  
+Salah satu contoh penerapannya terdapat pada class `Petani`. Setiap atribut seperti `idPetani`, `namaLengkap`, `username`, dan lainnya diberi modifier **private**, artinya data tersebut tidak bisa diakses langsung dari luar class. Akses hanya bisa dilakukan melalui **getter** dan **setter** yang disediakan, sehingga data dalam objek terlindungi dari perubahan sembarangan.  
 
 Prinsip ini juga diterapkan pada beberapa class lain seperti di bagian **Controller** dan **Database**, terutama untuk atribut yang bersifat sensitif.
 

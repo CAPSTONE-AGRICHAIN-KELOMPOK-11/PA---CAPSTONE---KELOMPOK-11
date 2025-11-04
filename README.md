@@ -65,32 +65,32 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara petani dan dis
 
 <details>
   <summary>1. Menu Login</summary>
-  <img src="https://github.com/user-attachments/assets/6a69e964-6f37-4c1c-a6d1-67eb5ade2ec7" alt="">
+  <img src="https://github.com/user-attachments/assets/ebc8a6b9-aa87-422d-af57-f6eb836cc8c3" alt="">
 </details>
 
 <details>
   <summary>2. Menu Admin</summary>
-  <img src="https://github.com/user-attachments/assets/524d32cc-25cc-4da0-a4c4-18c6d00976e6" alt="">
+  <img src="https://github.com/user-attachments/assets/1bfdb219-4f44-4a19-9e8f-42aaa05d4ef4" alt="">
 </details>
 
 <details>
   <summary>3. Menu Petani</summary>
-  <img src="https://github.com/user-attachments/assets/9a95e796-88e3-4d7a-bc96-31b742cb8387" alt="">
+  <img src="https://github.com/user-attachments/assets/ad40593d-923a-4180-a5d1-90a5c93b2201" alt="">
 </details>
 
 <details>
   <summary>4. Menu Distributor</summary>
-  <img src="https://github.com/user-attachments/assets/c71d27c9-f557-4d96-83f2-84302b8c3807" alt="">
+  <img src="https://github.com/user-attachments/assets/01dad09c-eead-4c0f-b214-119d50ad3e99" alt="">
 </details>
 
 <details>
   <summary>5. Kelola Petani</summary>
-  <img src="https://github.com/user-attachments/assets/7f001eee-0b0e-4244-bb0f-920877927d6e" alt="">
+  <img src="https://github.com/user-attachments/assets/8d1787d8-9dc5-4605-8e79-7af02c148d78" alt="">
 </details>
 
 <details>
   <summary>6. Kelola Distributor</summary>
-  <img src="https://github.com/user-attachments/assets/b25bf5f2-a828-4acf-abfd-986899e7022b" alt="">
+  <img src="https://github.com/user-attachments/assets/2107ae96-a895-4b46-bf70-fdf101a09c40" alt="">
 </details>
 
 ## ⚙️ Fitur Program

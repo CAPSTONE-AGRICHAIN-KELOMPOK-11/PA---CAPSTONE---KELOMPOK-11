@@ -233,7 +233,7 @@ Struktur folder pada proyek AgriChain dirancang menggunakan pola MVC (Model–Vi
 Secara umum, struktur foldernya adalah sebagai berikut:
 
 <details>
-  <summary>🧠 Controller</summary>
+  <summary>🧠 <b>Controller</b></summary>
   Package ini berisi seluruh logika utama aplikasi (business logic) yang mengatur alur kerja antara tampilan (view) dan data (model). Controller menerima input dari user melalui form GUI, memproses data, lalu menghubungkannya ke database lewat package Database.
 
   <img width="268" height="202" alt="Screenshot 2025-11-05 012336" src="https://github.com/user-attachments/assets/e416d39d-049b-4da3-af3b-73ac67fce9df" />
@@ -254,7 +254,7 @@ Package ini berfungsi sebagai “otak” dari aplikasi yang mengatur hubungan an
 ---
 
 <details>
-  <summary>🗄️ Database</summary>
+  <summary>🗄️ <b>Database</b></summary>
 Package Database berfungsi untuk mengatur seluruh proses komunikasi dan pengelolaan data antara aplikasi AgriChain dengan database MySQL menggunakan Hibernate dengan penerapan DAO (Data Access Object) pattern.
 Setiap class di package ini berperan sebagai service layer yang menjadi penghubung antara controller dan database, sehingga logika bisnis dan logika data tetap terpisah.
 Struktur ini membuat kode menjadi lebih rapi, modular, dan mudah dikelola ketika terjadi perubahan di skema database.
@@ -285,7 +285,7 @@ Struktur ini membuat kode menjadi lebih rapi, modular, dan mudah dikelola ketika
 ---
 
 <details>
-  <summary>🧩 Model</summary>
+  <summary>🧩 <b>Model</b></summary>
 Package ini berisi **kelas-kelas representasi data (entity class)** yang mencerminkan tabel di database.  
 
 <img width="276" height="136" alt="image" src="https://github.com/user-attachments/assets/98462358-673d-4569-b0f6-bca486df7d61" />
@@ -304,7 +304,7 @@ Package ini berperan sebagai wadah data yang dikirim atau diterima antar kompone
 ---
 
 <details>
-  <summary>🔐 Session</summary>
+  <summary>🔐 <b>Session</b></summary>
 Package ini berfungsi untuk **menyimpan informasi pengguna yang sedang login** agar bisa digunakan di berbagai tampilan (form). Misalnya menyimpan ID user, nama, dan perannya (Admin, Petani, Distributor).
 
 <img width="271" height="45" alt="image" src="https://github.com/user-attachments/assets/4b92d37e-7db6-4abf-84fc-09bb93d72df2" />
@@ -317,10 +317,21 @@ Dengan Session, user tidak perlu login berulang kali saat berpindah halaman.
 ---
 
 <details>
-  <summary>🚀 main</summary>
+  <summary>🚀 <b>Main</b></summary>
 Package ini berisi file utama yang menjalankan program.
 
 <img width="267" height="47" alt="image" src="https://github.com/user-attachments/assets/e02610c0-7cc5-4d03-b0e3-f75976fd0436" />
+
+---
+
+<details>
+  <summary>🖼️ <b>Resources</b></summary>
+
+Package **Resources** berisi seluruh **file pendukung tampilan aplikasi**, seperti gambar latar belakang (`*.png`), ikon tombol, serta file konfigurasi Hibernate (`hibernate.cfg.xml`).  
+Semua aset visual yang digunakan di package `View` diambil dari folder ini agar tampilan aplikasi lebih menarik dan konsisten. Selain itu, file konfigurasi Hibernate di sini berfungsi untuk mengatur koneksi aplikasi dengan database MySQL secara otomatis tanpa perlu menulis ulang pengaturan di setiap kelas.
+</details>
+
+---
 
 - **`Main.java`**: Menjadi *entry point* aplikasi. File ini biasanya memanggil form pertama (seperti LoginForm) dan melakukan inisialisasi awal sebelum program berjalan.
 

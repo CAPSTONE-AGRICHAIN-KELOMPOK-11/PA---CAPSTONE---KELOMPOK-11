@@ -423,7 +423,7 @@ Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework 
 
   <img src="https://github.com/user-attachments/assets/8cf3097d-9b78-47dd-b662-69d2c5f23b05" width="800" height="500" alt="image"/>
   <p align="center"><b><em>1.12. Kelola Permintaan</em></b><br>
-  Halaman ini digunakan oleh Admin untuk mengelola data permintaan dari distributor. Admin dapat menambah, mengedit, atau menghapus data permintaan serta memperbarui status seperti <em>menunggu</em>, <em>disetujui</em>, <em>ditolak</em>, atau <em>dipenuhi</em>. Semua data permintaan ditampilkan dalam tabel di bagian bawah agar mudah dipantau dan diperbarui.
+  Halaman ini digunakan oleh Admin untuk mengelola data permintaan dari distributor. Admin dapat menambah, mengedit, atau menghapus data permintaan serta memperbarui status seperti menunggu, diterima, ditolak, atau dipenuhi. Semua data permintaan ditampilkan dalam tabel di bagian bawah agar mudah dipantau dan diperbarui.
   </p>
 
 </div>

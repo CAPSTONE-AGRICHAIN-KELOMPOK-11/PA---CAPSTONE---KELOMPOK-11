@@ -350,12 +350,65 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 <details>
 <summary><b>3. Menu Registrasi</b></summary>
 <br>
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c4394e2e-343a-436e-a068-58852fc451c0" <img width="800" height="500" alt="image" src=/>
-  <p align="center"><b><em>1.3. Menu Registrasi</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
-  <img src="https://github.com/user-attachments/assets/ca8b9469-4fe5-4742-9809-2d009c0b8011" <img width="800" height="500" alt="image" src=/>
-  <p align="center"><b><em>1.4. Menu Registrasi Petani</em></b> pada menu ini admin, petani, dan distributor dapat melakukan login atau daftar untuk masuk ke menu.</p>
-</div> <br>
+
+  <img src="https://github.com/user-attachments/assets/c4394e2e-343a-436e-a068-58852fc451c0" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.3. Halaman Registrasi Utama</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  <img src="https://github.com/user-attachments/assets/ca8b9469-4fe5-4742-9809-2d009c0b8011" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.4. Form Registrasi Petani</em></b><br>
+  Halaman ini digunakan oleh <b>Petani</b> untuk membuat akun baru. Petani dapat mengisi data pribadi seperti nama, username, dan password agar dapat mengakses sistem serta mengelola data hasil panennya.</p>
+
+  <img src="https://github.com/user-attachments/assets/68bfd802-9060-4b53-8a0d-3964f9375886" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.5. Form Registrasi Distributor</em></b><br>
+  Halaman ini digunakan oleh <b>Distributor</b> untuk mendaftar ke dalam sistem. Distributor perlu mengisi data perusahaan dan informasi kontak agar dapat melihat dan mengajukan permintaan hasil panen dari petani.</p>
+
+</div>
+<br>
 </details>
+
+<details>
+<summary><b>3. Menu Admin</b></summary>
+<br>
+
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/6ca911f8-4b23-4c80-a752-edce29e4d012" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.6. Menu Admin</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  <img src="https://github.com/user-attachments/assets/c0ace4f4-2c1e-4284-aab1-1d8abfa92e75" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.7. Menu Kelola Petani</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  <img src="https://github.com/user-attachments/assets/f2e45dcb-a75f-4014-8a47-3f5ec06629af" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.8. Kelola Akun</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  <img src="https://github.com/user-attachments/assets/ba8daffe-5d2a-451a-a519-587b10918b1e" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.9. Kelola Panen</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  <img src="https://github.com/user-attachments/assets/5f28dd23-e785-4015-81ee-bf2e81cd2975" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.10. Menu Kelola Distrubutor</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  <img src="https://github.com/user-attachments/assets/0803462e-03ce-46a5-8fdc-42bbfcab4233" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.11. Kelola Akun</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  <img src="https://github.com/user-attachments/assets/8cf3097d-9b78-47dd-b662-69d2c5f23b05" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.12. Kelola Permintaan</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  
+</div>
+<br>
+</details>  
+
+
+
 
 

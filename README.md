@@ -287,7 +287,10 @@ Struktur ini membuat kode menjadi lebih rapi, modular, dan mudah dikelola ketika
 <details>
   <summary>🧩 Model</summary>
 Package ini berisi **kelas-kelas representasi data (entity class)** yang mencerminkan tabel di database.  
-Setiap model memiliki atribut dan metode *getter/setter* yang digunakan untuk mengatur atau mengambil nilai data.
+
+<img width="276" height="136" alt="image" src="https://github.com/user-attachments/assets/98462358-673d-4569-b0f6-bca486df7d61" />
+
+  Setiap model memiliki atribut dan metode *getter/setter* yang digunakan untuk mengatur atau mengambil nilai data.
 
 - **`Admin.java`**: Menyimpan data admin seperti ID, nama, dan nomor telepon.  
 - **`Distributor.java`**: Menyimpan informasi distributor seperti nama, status, dan tanggal registrasi.  
@@ -302,8 +305,9 @@ Package ini berperan sebagai wadah data yang dikirim atau diterima antar kompone
 
 <details>
   <summary>🔐 Session</summary>
-Package ini berfungsi untuk **menyimpan informasi pengguna yang sedang login** agar bisa digunakan di berbagai tampilan (form).  
-Misalnya menyimpan ID user, nama, dan perannya (Admin, Petani, Distributor).
+Package ini berfungsi untuk **menyimpan informasi pengguna yang sedang login** agar bisa digunakan di berbagai tampilan (form). Misalnya menyimpan ID user, nama, dan perannya (Admin, Petani, Distributor).
+
+<img width="271" height="45" alt="image" src="https://github.com/user-attachments/assets/4b92d37e-7db6-4abf-84fc-09bb93d72df2" />
 
 - **`Session.java`**: Berisi variabel global yang bisa diakses oleh semua form untuk melacak siapa yang sedang aktif menggunakan aplikasi.
 
@@ -315,6 +319,8 @@ Dengan Session, user tidak perlu login berulang kali saat berpindah halaman.
 <details>
   <summary>🚀 main</summary>
 Package ini berisi file utama yang menjalankan program.
+
+<img width="267" height="47" alt="image" src="https://github.com/user-attachments/assets/e02610c0-7cc5-4d03-b0e3-f75976fd0436" />
 
 - **`Main.java`**: Menjadi *entry point* aplikasi. File ini biasanya memanggil form pertama (seperti LoginForm) dan melakukan inisialisasi awal sebelum program berjalan.
 

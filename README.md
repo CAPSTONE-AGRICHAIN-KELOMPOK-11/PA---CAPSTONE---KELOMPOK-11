@@ -407,6 +407,32 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 <br>
 </details>  
 
+<details>
+<summary><b>5. Menu Admin</b></summary>
+<br>
+
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/29ba5ca8-d595-44c2-bfee-cfab9d774a4d" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.13. Menu Petani</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+
+  <img src="https://github.com/user-attachments/assets/dee29d9f-6af3-4beb-9494-d18489b503c0" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.14. Hasil Panen</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+
+  <img src="https://github.com/user-attachments/assets/8023050b-2670-414c-879e-66e11cfdc210" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.14. Permintaan</em></b><br>
+  Halaman ini digunakan oleh Petani untuk melihat dan mengelola permintaan hasil panen dari distributor. Petani dapat memantau status setiap permintaan, seperti <em>menunggu</em>, <em>disetujui</em>, atau <em>ditolak</em>, serta memperbarui data jika diperlukan. Tombol <b>Simpan</b> berfungsi untuk menyimpan perubahan status, sedangkan tombol <b>Kembali</b> digunakan untuk kembali ke menu utama.</p>
+  
+</div>
+<br>
+</details> 
+
+
+
+
+
 
 
 

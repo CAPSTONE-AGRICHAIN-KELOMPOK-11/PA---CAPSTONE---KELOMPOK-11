@@ -248,7 +248,8 @@ Package ini berfungsi sebagai “otak” dari aplikasi yang mengatur hubungan an
 
 <details>
   <summary>🗄️ Database</summary>
-Package **Database** berfungsi untuk mengatur seluruh proses **koneksi dan komunikasi antara aplikasi AgriChain dengan database MySQL** menggunakan JDBC. Struktur di dalamnya mengikuti konsep *service layer*, di mana setiap jenis data (Admin, Petani, Distributor, Hasil Panen, dan Permintaan) memiliki class khusus untuk memproses query-nya masing-masing. Hal ini membuat kode menjadi lebih rapi, terpisah, dan mudah diperbaiki jika ada perubahan pada struktur database.
+Package Database berfungsi untuk mengatur seluruh proses komunikasi dan pengelolaan data antara aplikasi AgriChain dengan database MySQL menggunakan Hibernate dengan penerapan DAO (Data Access Object) pattern.
+Setiap class di dalamnya berperan sebagai service layer yang menjadi penghubung antara controller dan database, sehingga logika bisnis dan logika data terpisah dengan jelas. Pendekatan ini membuat kode lebih terstruktur, efisien, dan mudah diperbarui jika terjadi perubahan pada struktur database.
 
 - **`Koneksi.java`**: Mengatur koneksi utama ke MySQL.  
   File ini menyimpan konfigurasi seperti URL database, username, dan password.  

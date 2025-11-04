@@ -314,6 +314,8 @@ Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang bena
   
 ## 🧰 Library / Framework yang Digunakan
 
+<img width="297" height="229" alt="image" src="https://github.com/user-attachments/assets/84f02d8b-c1e4-4331-b860-195028ab0576" />
+
 Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework (dikelola melalui Maven dependencies) yang berfungsi untuk membantu proses pengembangan antarmuka (GUI), koneksi ke database, serta pengelolaan data menggunakan Hibernate ORM. Berikut daftar library dan fungsinya:
 
 - **`hibernate-core-6.4.1.Final.jar`**

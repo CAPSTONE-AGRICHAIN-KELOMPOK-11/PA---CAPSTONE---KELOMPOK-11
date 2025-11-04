@@ -236,6 +236,8 @@ Secara umum, struktur foldernya adalah sebagai berikut:
   <summary>🧠 Controller</summary>
   Package ini berisi seluruh logika utama aplikasi (business logic) yang mengatur alur kerja antara tampilan (view) dan data (model). Controller menerima input dari user melalui form GUI, memproses data, lalu menghubungkannya ke database lewat package Database.
 
+  <img width="268" height="202" alt="Screenshot 2025-11-05 012336" src="https://github.com/user-attachments/assets/e416d39d-049b-4da3-af3b-73ac67fce9df" />
+
 Berikut beberapa file penting di dalamnya:
 - **`BaseController.java`**: Kelas dasar (abstrak) yang menyimpan fungsi umum yang dipakai controller lain, misalnya pola CRUD/validasi sederhana agar kode tidak duplikat.
 - **`LoginController.java`**: Mengelola proses login untuk Admin, Petani, dan Distributor (cek username/password, arahkan ke dashboard).
@@ -257,25 +259,27 @@ Package Database berfungsi untuk mengatur seluruh proses komunikasi dan pengelol
 Setiap class di package ini berperan sebagai service layer yang menjadi penghubung antara controller dan database, sehingga logika bisnis dan logika data tetap terpisah.
 Struktur ini membuat kode menjadi lebih rapi, modular, dan mudah dikelola ketika terjadi perubahan di skema database.
 
-- **`Koneksi.java`**: Mengatur koneksi utama ke MySQL.  
-  File ini menyimpan konfigurasi seperti URL database, username, dan password.  
-  Semua file lain akan menggunakan koneksi dari sini agar tidak perlu membuat koneksi baru berulang kali.
+<img width="264" height="190" alt="image" src="https://github.com/user-attachments/assets/63b38183-5f40-4cc2-b52d-a6270ca595ea" />
 
 - **`CRUDService.java`**: Menyediakan **fungsi dasar CRUD** (*Create, Read, Update, Delete*) yang dapat digunakan oleh berbagai service lain.  
   Dengan adanya class ini, semua proses database dapat dilakukan secara efisien tanpa perlu menulis ulang query yang sama.
 
+- **`Koneksi.java`**: Mengatur koneksi utama ke MySQL.  
+  File ini menyimpan konfigurasi seperti URL database, username, dan password.  
+  Semua file lain akan menggunakan koneksi dari sini agar tidak perlu membuat koneksi baru berulang kali.
+
 - **`adminService.java`**: Berfungsi untuk mengelola data **Admin**, termasuk menambah akun baru, memperbarui data, dan menampilkan daftar admin.
 
 - **`distributorService.java`**: Menangani semua operasi terkait **Distributor**, seperti menyimpan data pendaftaran, memperbarui status, serta mengambil data distributor dari database.
-
-- **`petaniService.java`**: Digunakan untuk mengatur data **Petani**, seperti nama, nomor telepon, lokasi sawah, dan luas lahan.  
-  File ini biasanya digunakan oleh `petaniController` untuk menampilkan dan memperbarui data petani di GUI.
 
 - **`hasilPanenService.java`**: Mengelola data **hasil panen** dari petani, meliputi jenis hasil panen, jumlah, satuan (kg/ton), dan status data.  
   File ini membantu `hasilPanenController` dalam memuat daftar hasil panen serta menambahkan data baru.
 
 - **`permintaanService.java`**: Mengatur data **permintaan hasil panen** dari distributor ke petani.
   Termasuk menambah permintaan baru, memperbarui status (misalnya menunggu, diterima, atau selesai), serta menampilkan daftar permintaan yang aktif.
+
+- **`petaniService.java`**: Digunakan untuk mengatur data **Petani**, seperti nama, nomor telepon, lokasi sawah, dan luas lahan.  
+  File ini biasanya digunakan oleh `petaniController` untuk menampilkan dan memperbarui data petani di GUI.
 </details>
 
 ---

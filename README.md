@@ -1,0 +1,455 @@
+<h1 align="center" style="color:#2e8b57;">🌾 CAPSTONE PROJECT KELOMPOK 11 🌾</h1>
+<h1 align="center"><img width="500" height="500" alt="Logo" src="https://github.com/user-attachments/assets/389ffad9-6b59-4bcd-a5ee-0f45441ed1f7" />
+
+<h2 align="center" style="color:#4CAF50;">SELAMAT DATANG DI SISTEM INFORMASI AGRICHAIN!</h2>
+
+## 📚 Daftar Isi
+- [👤 Profil Anggota](#-profil-anggota)
+- [🌾 Nama Program](#-nama-program)
+- [📝 Deskripsi Program](#-deskripsi-program)
+- [📈 Use Case Diagram](#-use-case-diagram)
+- [🔁 Flowchart Program](#-flowchart-program)
+- [⚙️ Fitur Program](#️-fitur-program)
+- [💡 Penerapan OOP](#-penerapan-oop)
+- [📂 Struktur Folder / Package](#-struktur-folder--package)
+- [🧰 Library / Framework yang Digunakan](#-library--framework-yang-digunakan)
+- [🖥️ Panduan & Antarmuka Pengguna (GUI)](#-panduan-&-antarmuka-pengguna-(gui))
+  
+## 👤 Profil Anggota
+| Nayla Camelia Indraswari| Indah Maramin Al Inayah  | Nanda Pesona Putri | Luthfi Daffa Purbaya |
+|-------------------------|--------------------------|--------------------|----------------------|
+| **NIM:** 2309116009 <br> **Kelas:** Sistem Informasi A '24 <br> [![Camel](https://img.shields.io/badge/-Camel-FFFFFF?logo=github&logoColor=black)](https://github.com/naylacamelia) &nbsp; &nbsp; | **NIM:** 2309116086 <br> **Kelas:** Sistem Informasi C '24 <br> [![Naya](https://img.shields.io/badge/-Naya-FFFFFF?logo=github&logoColor=black)](https://github.com/innayaara) &nbsp; &nbsp; | **NIM:** 2309116101 <br> **Kelas:** Sistem Informasi C '24 <br> [![Nanda](https://img.shields.io/badge/-Nanda-FFFFFF?logo=github&logoColor=black)](https://github.com/Nunanad) &nbsp; &nbsp; | **NIM:** 2309116102 <br> **Kelas:** Sistem Informasi C '24 <br> [![Lutpi](https://img.shields.io/badge/-Lutpi-FFFFFF?logo=github&logoColor=black)](https://github.com/LuthfiDffa) &nbsp; &nbsp; |
+
+## 🌾 Nama Program
+**AgriChain** AgriChain merupakan sebuah sistem informasi pertanian yang berfungsi sebagai wadah digital khusus hasil panen padi. Platform ini mempertemukan petani dan distributor dalam satu sistem terpadu di mana petani dapat mencatat dan menawarkan hasil panennya secara langsung, sementara distributor dapat melakukan permintaan dan pemesanan sesuai kebutuhan. 
+
+
+## 📝 Deskripsi Program
+Aplikasi **AgriChain** adalah sistem informasi berbasis Java yang dirancang untuk membantu proses distribusi hasil panen antara petani dan distributor secara digital dan terintegrasi yang dikelola oleh admin. Tujuan utama aplikasi ini adalah untuk menciptakan rantai pasok pertanian yang lebih efisien, transparan, dan mudah digunakan oleh semua pihak yang terlibat dalam ekosistem pertanian lokal.  
+
+---
+
+### ⚙️ 1. Kebutuhan Sistem  
+Agar aplikasi AgriChain bisa dijalankan dengan baik, berikut beberapa alat dan library yang digunakan dalam pengembangannya:  
+- **`JDK 24`**: Digunakan untuk menjalankan dan mengompilasi program berbasis Java. Versi ini mendukung fitur terbaru Java untuk performa dan keamanan yang lebih baik.  
+- **`NetBeans IDE 22`**: Digunakan sebagai tempat membuat dan mengedit tampilan aplikasi (GUI) serta menulis kode Java dengan mudah.  
+- **`XAMPP`**: Menyediakan server lokal untuk menjalankan database MySQL agar aplikasi dapat menyimpan dan mengelola data pengguna.  
+- **`MySQL Connector (mysql-connector-j-9.4.0.jar)`**: Berfungsi sebagai penghubung antara aplikasi Java dan database MySQL, memungkinkan pertukaran data antar keduanya.  
+- **`Absolute Layout (AbsoluteLayout.jar)`**: Library tambahan untuk memudahkan pengaturan posisi komponen GUI secara presisi di dalam NetBeans.  
+- **`JCalendar (jcalendar-1.4.jar)`**: Digunakan untuk menampilkan dan memilih tanggal secara otomatis dalam tampilan aplikasi.  
+- **`FlatLaf (flatlaf-3.4.jar)`**: Library untuk mempercantik tampilan GUI agar terlihat lebih modern dan rapi.
+
+---
+
+### 🌾 2. Fungsi Utama  
+AgriChain hadir untuk mempermudah komunikasi dan transaksi antara petani dan distributor tanpa perantara. Petani dapat menginput hasil panen yang mereka miliki, sementara distributor dapat melihat data hasil panen tersebut dan membuat permintaan langsung kepada petani. Aplikasi ini juga memungkinkan admin untuk mengelola akun pengguna dan memantau aktivitas sistem.
+
+---
+
+### 👥 3. Peran Utama dalam Sistem  
+- **Petani**: Menginput hasil panen dan menerima permintaan pesanan dari distributor.  
+- **Distributor**: Melihat data hasil panen petani dan membuat permintaan.  
+- **Admin**: Mengelola data petani dan distributor serta memastikan sistem berjalan dengan baik.  
+
+## 📈 Use Case Diagram
+
+<details>
+  <summary>Use Case</summary>
+  <img src="https://github.com/user-attachments/assets/9f2fd37f-f0e6-49bc-ae39-efd53b1bf775" alt="">
+</details>
+
+## 🔁 Flowchart Program
+
+<details>
+  <summary>1. Menu Login</summary>
+  <img src="https://github.com/user-attachments/assets/6a69e964-6f37-4c1c-a6d1-67eb5ade2ec7" alt="">
+</details>
+
+<details>
+  <summary>2. Menu Admin</summary>
+  <img src="https://github.com/user-attachments/assets/524d32cc-25cc-4da0-a4c4-18c6d00976e6" alt="">
+</details>
+
+<details>
+  <summary>3. Menu Petani</summary>
+  <img src="https://github.com/user-attachments/assets/9a95e796-88e3-4d7a-bc96-31b742cb8387" alt="">
+</details>
+
+<details>
+  <summary>4. Menu Distributor</summary>
+  <img src="https://github.com/user-attachments/assets/c71d27c9-f557-4d96-83f2-84302b8c3807" alt="">
+</details>
+
+<details>
+  <summary>5. Kelola Petani</summary>
+  <img src="https://github.com/user-attachments/assets/7f001eee-0b0e-4244-bb0f-920877927d6e" alt="">
+</details>
+
+<details>
+  <summary>6. Kelola Distributor</summary>
+  <img src="https://github.com/user-attachments/assets/b25bf5f2-a828-4acf-abfd-986899e7022b" alt="">
+</details>
+
+## ⚙️ Fitur Program
+
+Aplikasi **AgriChain** memiliki beberapa fitur utama yang dibedakan berdasarkan peran pengguna: **Petani**, **Distributor**, dan **Admin**.
+
+### 🧑‍💼 1. Fitur untuk Admin
+Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi AgriChain. Berikut fitur-fitur utama yang dapat dilakukan oleh admin:
+
+- **Kelola Akun Distributor**  
+  Admin dapat menambah, mengedit, dan menghapus data distributor, termasuk nama, nomor telepon, status, dan tanggal registrasi.  
+
+- **Kelola Akun Petani**  
+  Admin bisa menambah, mengedit, dan menghapus data petani, termasuk nama, nomor telepon dan status sekaligus memantau hasil panen, serta aktivitas yang dilakukan di sistem.  
+
+- **Pantau Permintaan Hasil Panen**  
+  Admin dapat melihat daftar permintaan yang dilakukan oleh distributor kepada petani dan memastikan transaksi berjalan lancar.  
+
+- **Manajemen Database Terpusat**  
+  Semua data pengguna, hasil panen, dan permintaan tersimpan di database MySQL, sehingga memudahkan pemantauan dan pencarian data.  
+
+- **Antarmuka Visual Interaktif**  
+  Admin dapat berinteraksi langsung melalui tampilan GUI yang sederhana dan mudah digunakan, dilengkapi tombol Tambah, Edit, Hapus, serta tabel data.  
+
+---
+
+### 👨‍🌾 2. Fitur untuk Petani
+- **Input Data Hasil Panen**  
+  Petani dapat menambahkan data hasil panen seperti luas lahan, nama sawah, dan lokasi.  
+- **Melihat dan Mengelola Permintaan**  
+  Petani dapat melihat daftar permintaan dari distributor dan menerima permintaan tersebut.  
+- **Dashboard Petani**  
+  Menampilkan informasi panen dan permintaan dalam satu tampilan yang mudah dipahami.  
+
+---
+
+### 🚚 3. Fitur untuk Distributor
+- **Melihat Data Petani dan Hasil Panen**  
+  Distributor dapat mencari dan menyortir data hasil panen berdasarkan lokasi atau jumlah panen.  
+- **Membuat Permintaan Hasil Panen**  
+  Distributor dapat membuat permintaan kepada petani secara langsung dari aplikasi.  
+- **Pantau Status Permintaan**  
+  Distributor bisa melihat status permintaan yang dikirim apakah sudah diterima, sedang diproses, atau dipenuhi.  
+
+---
+
+### 🖥️ 4. Fitur Umum
+- **Login dan Register Sesuai Role**  
+  Pengguna baru dapat mendaftar sebagai *Petani* atau *Distributor*, dan sistem akan menampilkan halaman sesuai perannya.  
+- **Koneksi Database Otomatis**  
+  Semua data tersimpan otomatis di MySQL menggunakan JDBC Connector.  
+- **Tampilan GUI Menarik dan Responsif**  
+  Dibangun menggunakan Java Swing dengan layout AbsoluteLayout dan tema modern dari FlatLaf.  
+
+## 💡 Penerapan OOP
+
+<details>
+<summary><b>1. Encapsulation</b></summary>
+
+<img width="704" height="235" alt="image" src="https://github.com/user-attachments/assets/8b74ec32-44e1-4e94-b78f-7436035f755b" />
+
+Salah satu contoh penerapannya terdapat pada class `Petani`.  
+Setiap atribut seperti `idPetani`, `namaLengkap`, `username`, dan lainnya diberi modifier **private**, artinya data tersebut tidak bisa diakses langsung dari luar class.  
+Akses hanya bisa dilakukan melalui **getter** dan **setter** yang disediakan, sehingga data dalam objek terlindungi dari perubahan sembarangan.  
+
+Prinsip ini juga diterapkan pada beberapa class lain seperti di bagian **Controller** dan **Database**, terutama untuk atribut yang bersifat sensitif.
+
+</details>
+
+---
+
+<details>
+<summary><b>2. Inheritance</b></summary>
+
+<img width="492" height="177" alt="image" src="https://github.com/user-attachments/assets/e8d7997e-fa53-4875-8b21-5ac571133bb8" />
+
+<img width="668" height="50" alt="image" src="https://github.com/user-attachments/assets/7e61ce44-62f3-4bd5-a19d-67621101912f" />
+
+Beberapa class pada package **Controller** mewarisi struktur dasar CRUD dari class abstrak `BaseController`.  
+Artinya, controller-controller turunan tidak perlu menulis ulang method umum seperti `insert()`, `update()`, dan `delete()`,  
+namun cukup **meng-override** method tersebut sesuai kebutuhan masing-masing entitas.
+
+</details>
+
+---
+
+<details>
+<summary><b>3. Polymorphism</b></summary>
+
+<img width="1007" height="435" alt="image" src="https://github.com/user-attachments/assets/8daf8257-17fa-4ae4-a155-d69724e0e6fa" />
+
+Penerapan polymorphism terlihat pada penggunaan method dengan nama yang sama di berbagai class pada package **Controller**,  
+seperti `insert()` pada `petaniController`, `distributorController`, dan `permintaanController`.  
+
+Meskipun nama method-nya sama, masing-masing memiliki **implementasi yang berbeda** sesuai dengan jenis data yang dikelola.  
+Hal ini menunjukkan bahwa satu nama method dapat memiliki banyak bentuk perilaku tergantung pada objek yang memanggilnya.
+
+</details>
+
+---
+
+<details>
+<summary><b>4. Abstraction</b></summary>
+
+<img width="577" height="127" alt="image" src="https://github.com/user-attachments/assets/6ad67e8c-b21d-4dc7-9d38-bf69e9e86dfc" />
+
+Penerapan abstraction terdapat pada class `BaseController`, yang berfungsi sebagai **kerangka dasar bagi semua controller**.  
+Class ini hanya mendefinisikan method abstrak seperti `insert()`, `update()`, dan `delete()` tanpa menjelaskan detail implementasinya.  
+
+Setiap controller turunan kemudian mengisi logika sesuai kebutuhan masing-masing.  
+Dengan cara ini, program menyembunyikan detail teknis yang kompleks dan hanya menampilkan bagian penting yang perlu diketahui.
+
+</details>
+
+---
+
+<details>
+<summary><b>5. Interface</b></summary>
+
+<img width="423" height="134" alt="image" src="https://github.com/user-attachments/assets/0b9131f1-887a-4380-bda9-be20b05fc21e" />
+
+<img width="687" height="63" alt="image" src="https://github.com/user-attachments/assets/93de5a91-9974-4f54-a828-0b51a8af66a5" />
+
+Penerapan interface terlihat pada class `CRUDService`, yang berisi kumpulan method abstrak seperti `insert()`, `update()`, `delete()`, dan `getAll()`.  
+Interface ini menjadi **standar perilaku** yang harus diikuti oleh setiap class service, seperti `petaniService`, `adminService`, dan `distributorService`.  
+
+Dengan mengimplementasikan `CRUDService`, semua service tersebut dijamin memiliki struktur dan fungsi dasar yang sama,  
+meskipun cara kerjanya bisa berbeda sesuai kebutuhan masing-masing entitas.
+
+</details>
+
+
+## 📂 Struktur Folder / Package
+
+Struktur folder pada proyek **AgriChain** dibuat berdasarkan pola **MVC (Model-View-Controller)** agar setiap bagian kode memiliki tanggung jawab yang jelas. Dengan struktur seperti ini, pengembangan aplikasi jadi lebih mudah, rapi, dan terorganisir antara tampilan (View), logika (Controller), dan data (Model).
+
+Secara umum, struktur foldernya adalah sebagai berikut:
+
+<details>
+  <summary>🧠 Controller</summary>
+  Package ini berisi seluruh logika utama aplikasi (business logic) yang mengatur alur kerja antara tampilan (view) dan data (model). Controller menerima input dari user melalui form GUI, memproses data, lalu menghubungkannya ke database lewat package Database.
+
+Berikut beberapa file penting di dalamnya:
+- **`BaseController.java`**: Kelas dasar yang menjadi induk bagi controller lain, berisi fungsi umum seperti validasi input atau pengaturan koneksi awal.  
+- **`LoginController.java`**: Mengatur proses login untuk semua pengguna (Admin, Petani, Distributor).  
+- **`RegisterController.java`**: Menangani proses pendaftaran akun baru ke dalam database.  
+- **`adminController.java`**: Mengatur fitur-fitur khusus admin seperti kelola akun distributor dan petani.  
+- **`distributorController.java`**: Mengatur aktivitas distributor seperti membuat permintaan hasil panen.  
+- **`hasilPanenController.java`**: Bertanggung jawab atas proses penambahan, pengeditan, dan penghapusan data hasil panen oleh petani.  
+- **`permintaanController.java`**: Mengatur data permintaan hasil panen dari distributor dan statusnya.  
+- **`petaniController.java`**: Mengelola data petani, termasuk sawah, lokasi, dan luas lahan.  
+- **`generateID.java`**: Membuat ID unik otomatis untuk setiap data baru agar tidak terjadi duplikasi di database.
+
+Package ini berfungsi sebagai “otak” dari aplikasi yang mengatur hubungan antar komponen dan memastikan logika berjalan dengan benar.
+</details> 
+
+---
+
+<details>
+  <summary>🗄️ Database</summary>
+Package Database berfungsi untuk mengatur seluruh proses komunikasi dan pengelolaan data antara aplikasi AgriChain dengan database MySQL menggunakan Hibernate dengan penerapan DAO (Data Access Object) pattern.
+Setiap class di dalamnya berperan sebagai service layer yang menjadi penghubung antara controller dan database, sehingga logika bisnis dan logika data terpisah dengan jelas. Pendekatan ini membuat kode lebih terstruktur, efisien, dan mudah diperbarui jika terjadi perubahan pada struktur database.
+
+- **`Koneksi.java`**: Mengatur koneksi utama ke MySQL.  
+  File ini menyimpan konfigurasi seperti URL database, username, dan password.  
+  Semua file lain akan menggunakan koneksi dari sini agar tidak perlu membuat koneksi baru berulang kali.
+
+- **`CRUDService.java`**: Menyediakan **fungsi dasar CRUD** (*Create, Read, Update, Delete*) yang dapat digunakan oleh berbagai service lain.  
+  Dengan adanya class ini, semua proses database dapat dilakukan secara efisien tanpa perlu menulis ulang query yang sama.
+
+- **`adminService.java`**: Berfungsi untuk mengelola data **Admin**, termasuk menambah akun baru, memperbarui data, dan menampilkan daftar admin.
+
+- **`distributorService.java`**: Menangani semua operasi terkait **Distributor**, seperti menyimpan data pendaftaran, memperbarui status, serta mengambil data distributor dari database.
+
+- **`petaniService.java`**: Digunakan untuk mengatur data **Petani**, seperti nama, nomor telepon, lokasi sawah, dan luas lahan.  
+  File ini biasanya digunakan oleh `petaniController` untuk menampilkan dan memperbarui data petani di GUI.
+
+- **`hasilPanenService.java`**: Mengelola data **hasil panen** dari petani, meliputi jenis hasil panen, jumlah, satuan (kg/ton), dan status data.  
+  File ini membantu `hasilPanenController` dalam memuat daftar hasil panen serta menambahkan data baru.
+
+- **`permintaanService.java`**: Mengatur data **permintaan hasil panen** dari distributor ke petani.
+  Termasuk menambah permintaan baru, memperbarui status (misalnya menunggu, diterima, atau selesai), serta menampilkan daftar permintaan yang aktif.
+</details>
+
+---
+
+<details>
+  <summary>🧩 Model</summary>
+Package ini berisi **kelas-kelas representasi data (entity class)** yang mencerminkan tabel di database.  
+Setiap model memiliki atribut dan metode *getter/setter* yang digunakan untuk mengatur atau mengambil nilai data.
+
+- **`Admin.java`**: Menyimpan data admin seperti ID, nama, dan nomor telepon.  
+- **`Distributor.java`**: Menyimpan informasi distributor seperti nama, status, dan tanggal registrasi.  
+- **`Permintaan.java`**: Mewakili data permintaan hasil panen oleh distributor.  
+- **`Petani.java`**: Berisi data petani seperti nama sawah, luas lahan, dan lokasi.  
+- **`hasilPanen.java`**: Menyimpan data panen yang dimasukkan oleh petani (jenis, jumlah, satuan).
+
+Package ini berperan sebagai wadah data yang dikirim atau diterima antar komponen aplikasi.
+</details>
+
+---
+
+<details>
+  <summary>🔐 Session</summary>
+Package ini berfungsi untuk **menyimpan informasi pengguna yang sedang login** agar bisa digunakan di berbagai tampilan (form).  
+Misalnya menyimpan ID user, nama, dan perannya (Admin, Petani, Distributor).
+
+- **`Session.java`**: Berisi variabel global yang bisa diakses oleh semua form untuk melacak siapa yang sedang aktif menggunakan aplikasi.
+
+Dengan Session, user tidak perlu login berulang kali saat berpindah halaman.
+</details>
+
+---
+
+<details>
+  <summary>🚀 main</summary>
+Package ini berisi file utama yang menjalankan program.
+
+- **`Main.java`**: Menjadi *entry point* aplikasi. File ini biasanya memanggil form pertama (seperti LoginForm) dan melakukan inisialisasi awal sebelum program berjalan.
+
+Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang benar saat pertama kali dijalankan.
+</details>
+
+---
+  
+## 🧰 Library / Framework yang Digunakan
+
+Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untuk membantu proses pembuatan GUI, pengelolaan database, dan peningkatan tampilan aplikasi. Berikut daftar library dan fungsinya:
+
+- **`mysql-connector-j-9.4.0.jar`**
+  Digunakan untuk menghubungkan aplikasi Java dengan database MySQL. Tanpa library ini, program tidak dapat melakukan proses ambil dan simpan data ke database
+- **`AbsoluteLayout.jar`**
+  Membantu mengatur posisi komponen GUI (seperti tombol, label, dan text field) dengan bebas di tampilan NetBeans.
+- **`jcalendar-1.4.jar`**
+  Memberikan komponen calendar picker agar pengguna bisa memilih tanggal secara otomatis.
+- **`flatlaf-3.4.jar`**
+  Digunakan untuk mempercantik tampilan aplikasi Java Swing. Dengan FlatLaf, tampilan aplikasi menjadi lebih modern, bersih, dan nyaman dilihat.
+- **`JDK 24`**
+  Versi Java Development Kit yang digunakan untuk menjalankan dan mengompilasi program. Mendukung fitur-fitur terbaru Java untuk stabilitas dan keamanan
+
+## 🖥️ Panduan & Antarmuka Pengguna (GUI)
+
+<details>
+<summary><b>1. Menu Utama</b></summary>
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6006ced9-2ed5-4a5a-93ba-e91c2d84e24a" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.1. Menu Utama</em></b><br>
+  Halaman ini merupakan tampilan awal aplikasi AgriChain. Pengguna dapat melakukan <b>login</b> untuk masuk ke sistem, atau memilih opsi <b>daftar</b> jika belum memiliki akun. Menu ini menjadi pintu masuk utama bagi Admin, Petani, maupun Distributor sebelum mengakses fitur masing-masing.</p>
+</div> <br>
+</details>
+
+<details>
+<summary><b>2. Menu Login</b></summary>
+<br>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4c98e056-54f7-42c6-9942-8eec59741452" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.2. Menu Login</em></b><br>
+  Halaman ini digunakan oleh Admin, Petani, dan <b>Distributor untuk masuk ke sistem. Pengguna perlu memasukkan <b>username</b> dan <b>password</b> yang terdaftar untuk mengakses akun masing-masing. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama, sedangkan tautan <b>Daftar</b> mengarahkan ke halaman pendaftaran akun baru.</p>
+</div> <br>
+</details>
+    
+<details>
+<summary><b>3. Menu Registrasi</b></summary>
+<br>
+
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/c4394e2e-343a-436e-a068-58852fc451c0" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.3. Halaman Registrasi Utama</em></b><br>
+  Pada halaman ini, pengguna dapat memilih peran (Admin, Petani, atau Distributor) sebelum melakukan proses login atau pendaftaran akun baru.</p>
+
+  <img src="https://github.com/user-attachments/assets/ca8b9469-4fe5-4742-9809-2d009c0b8011" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.4. Form Registrasi Petani</em></b><br>
+  Halaman ini digunakan oleh <b>Petani</b> untuk membuat akun baru. Petani dapat mengisi data pribadi seperti nama, username, dan password agar dapat mengakses sistem serta mengelola data hasil panennya.</p>
+
+  <img src="https://github.com/user-attachments/assets/68bfd802-9060-4b53-8a0d-3964f9375886" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.5. Form Registrasi Distributor</em></b><br>
+  Halaman ini digunakan oleh <b>Distributor</b> untuk mendaftar ke dalam sistem. Distributor perlu mengisi data perusahaan dan informasi kontak agar dapat melihat dan mengajukan permintaan hasil panen dari petani.</p>
+
+</div>
+<br>
+</details>
+
+<details>
+<summary><b>4. Menu Admin</b></summary>
+<br>
+
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/6ca911f8-4b23-4c80-a752-edce29e4d012" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.6. Menu Admin</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Admin yaitu <b>Kelola Petani</b> dan <b>Kelola Distributor</b>. Admin dapat mengatur data pengguna seperti menambah, mengubah, atau menghapus informasi. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama.</p>
+
+  <img src="https://github.com/user-attachments/assets/c0ace4f4-2c1e-4284-aab1-1d8abfa92e75" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.7. Menu Kelola Petani</em></b><br>
+  Halaman ini digunakan oleh Admin untuk mengelola data petani. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi petani dan <b>Kelola Panen</b> untuk memantau hasil panen yang telah tercatat.</p>
+
+  <img src="https://github.com/user-attachments/assets/f2e45dcb-a75f-4014-8a47-3f5ec06629af" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.8. Kelola Akun Petani</em></b><br>
+  Halaman ini digunakan oleh Admin untuk mengelola data akun petani. Admin dapat menambahkan, mengubah, atau menghapus data seperti nama petani, username, password, nomor telepon, serta informasi lahan. Data yang tersimpan akan langsung ditampilkan pada tabel di bawahnya.</p>
+
+  <img src="https://github.com/user-attachments/assets/ba8daffe-5d2a-451a-a519-587b10918b1e" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.9. Kelola Panen</em></b><br>
+  Halaman ini digunakan oleh Admin untuk mengelola data hasil panen dari setiap petani. Admin dapat menambahkan, mengedit, atau menghapus data panen seperti jumlah panen, satuan, tanggal panen, serta ID petani dan admin yang terkait. Data panen yang tersimpan akan ditampilkan pada tabel di bagian bawah.</p>
+
+  <img src="https://github.com/user-attachments/assets/5f28dd23-e785-4015-81ee-bf2e81cd2975" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.10. Menu Kelola Distrubutor</em></b><br>
+  Halaman ini digunakan oleh Admin untuk mengelola data distributor. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi distributor dan <b>Kelola Permintaan</b> untuk memantau serta memproses permintaan yang diajukan oleh distributor.</p>
+
+  <img src="https://github.com/user-attachments/assets/c8f1d5f8-7a9e-45d6-88ef-c10e9293b5ed" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.11. Kelola Akun Distributor</em></b><br>
+  Halaman ini digunakan oleh Admin untuk mengelola data akun distributor. Admin dapat menambahkan, mengedit, atau menghapus informasi seperti nama distributor, username, password, nomor telepon, nama usaha, dan wilayah pasar. Semua data yang diperbarui akan langsung ditampilkan pada tabel di bawahnya.</p>
+
+  <img src="https://github.com/user-attachments/assets/8cf3097d-9b78-47dd-b662-69d2c5f23b05" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.12. Kelola Permintaan</em></b><br>
+  Halaman ini digunakan oleh Admin untuk mengelola data permintaan dari distributor. Admin dapat menambah, mengedit, atau menghapus data permintaan serta memperbarui status seperti <em>menunggu</em>, <em>disetujui</em>, <em>ditolak</em>, atau <em>dipenuhi</em>. Semua data permintaan ditampilkan dalam tabel di bagian bawah agar mudah dipantau dan diperbarui.</p>
+
+</div>
+<br>
+</details>  
+
+<details>
+<summary><b>5. Menu Petani</b></summary>
+<br>
+
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/29ba5ca8-d595-44c2-bfee-cfab9d774a4d" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.13. Menu Petani</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+
+  <img src="https://github.com/user-attachments/assets/dee29d9f-6af3-4beb-9494-d18489b503c0" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.14. Hasil Panen</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Petani, yaitu <b>Hasil Panen</b> dan <b>Permintaan</b>. Melalui menu ini, petani dapat mengelola data hasil panen yang mereka input serta melihat atau membuat permintaan distribusi hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+
+  <img src="https://github.com/user-attachments/assets/8023050b-2670-414c-879e-66e11cfdc210" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.15. Permintaan</em></b><br>
+  Halaman ini digunakan oleh Petani untuk melihat dan mengelola permintaan hasil panen dari distributor. Petani dapat memantau status setiap permintaan, seperti <em>menunggu</em>, <em>disetujui</em>, atau <em>ditolak</em>, serta memperbarui data jika diperlukan. Tombol <b>Simpan</b> berfungsi untuk menyimpan perubahan status, sedangkan tombol <b>Kembali</b> digunakan untuk kembali ke menu utama.</p>
+  
+</div>
+<br>
+</details> 
+
+<details>
+<summary><b>6. Menu Distributor</b></summary>
+<br>
+
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/797b356d-5d44-4ac1-a35b-1328dbf5a6b9" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.16. Menu Distributor</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+
+  <img src="image" src="https://github.com/user-attachments/assets/94ada041-d945-4366-a287-81f38c41e078" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.17. Info Petani</em></b><br>
+  Halaman ini menampilkan dua fitur utama bagi Distributor, yaitu <b>Info Petani</b> dan <b>Buat Permintaan</b>. Melalui menu ini, distributor dapat melihat informasi lengkap mengenai petani serta membuat permintaan pembelian hasil panen. Tombol <b>Keluar</b> digunakan untuk kembali ke halaman utama aplikasi.</p>
+
+  <img src="image" src="https://github.com/user-attachments/assets/f0550510-4671-4965-81a3-d5b8258a1567" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.18. Buat Permintaan</em></b><br>
+  Halaman ini digunakan oleh Distributor untuk membuat dan mengelola permintaan hasil panen dari petani. Distributor dapat memasukkan <b>jumlah permintaan</b> beserta satuannya, lalu menambahkan data ke dalam tabel. Data permintaan yang telah dibuat akan tampil bersama informasi seperti status dan tanggal permintaan. Tombol <b>Kembali</b> digunakan untuk kembali ke menu utama distributor.</p>
+
+</div>
+<br>
+</details>  

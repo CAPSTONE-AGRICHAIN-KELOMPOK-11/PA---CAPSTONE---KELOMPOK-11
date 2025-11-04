@@ -58,8 +58,9 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara petani dan dis
 
 <details>
   <summary>Use Case</summary>
-  <img src="https://github.com/user-attachments/assets/9f2fd37f-f0e6-49bc-ae39-efd53b1bf775" alt="">
+  <img src="https://github.com/user-attachments/assets/ecb2dcb2-0fb6-4c20-b41c-4083c0c9caa1" alt="">
 </details>
+
 
 ## 🔁 Flowchart Program
 

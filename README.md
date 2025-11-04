@@ -49,8 +49,8 @@ AgriChain hadir untuk mempermudah komunikasi dan transaksi antara petani dan dis
 ---
 
 ### 👥 3. Peran Utama dalam Sistem  
-- **Petani**: Menginput hasil panen, memperbarui data lahan, dan menerima permintaan dari distributor.  
-- **Distributor**: Melihat data hasil panen petani, membuat permintaan, dan memantau status pengiriman.  
+- **Petani**: Menginput hasil panen dan menerima permintaan pesanan dari distributor.  
+- **Distributor**: Melihat data hasil panen petani dan membuat permintaan.  
 - **Admin**: Mengelola data petani dan distributor serta memastikan sistem berjalan dengan baik.  
 
 ## 📈 Use Case Diagram
@@ -103,7 +103,7 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi AgriCha
   Admin dapat menambah, mengedit, dan menghapus data distributor, termasuk nama, nomor telepon, status, dan tanggal registrasi.  
 
 - **Kelola Akun Petani**  
-  Admin bisa memantau data petani, hasil panen, serta aktivitas yang dilakukan di sistem.  
+  Admin bisa menambah, mengedit, dan menghapus data petani, termasuk nama, nomor telepon dan status sekaligus memantau hasil panen, serta aktivitas yang dilakukan di sistem.  
 
 - **Pantau Permintaan Hasil Panen**  
   Admin dapat melihat daftar permintaan yang dilakukan oleh distributor kepada petani dan memastikan transaksi berjalan lancar.  
@@ -120,7 +120,7 @@ Admin memiliki kontrol penuh terhadap sistem dan pengguna dalam aplikasi AgriCha
 - **Input Data Hasil Panen**  
   Petani dapat menambahkan data hasil panen seperti luas lahan, nama sawah, dan lokasi.  
 - **Melihat dan Mengelola Permintaan**  
-  Petani dapat melihat daftar permintaan dari distributor dan memperbarui statusnya.  
+  Petani dapat melihat daftar permintaan dari distributor dan menerima permintaan tersebut.  
 - **Dashboard Petani**  
   Menampilkan informasi panen dan permintaan dalam satu tampilan yang mudah dipahami.  
 

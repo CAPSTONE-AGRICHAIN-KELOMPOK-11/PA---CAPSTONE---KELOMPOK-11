@@ -328,6 +328,16 @@ Package ini memastikan aplikasi berjalan dengan urutan dan konfigurasi yang bena
 </details>
 
 ---
+
+<details>
+  <summary>🖼️ <b>View</b></summary>
+
+Package View berisi seluruh tampilan antarmuka pengguna (GUI) yang dibuat menggunakan Java Swing. Setiap file di dalam package ini merepresentasikan satu halaman atau form dalam aplikasi AgriChain, seperti login, registrasi, menu utama, hingga halaman pengelolaan data.  
+
+<img width="349" height="428" alt="Screenshot 2025-11-05 014527" src="https://github.com/user-attachments/assets/cde4759f-dc97-4007-8213-f0d25eb98912" />
+
+Semua elemen visual seperti tombol, tabel, dan field input diatur di sini agar pengguna dapat berinteraksi langsung dengan sistem. Secara singkat, package ini merupakan bagian tampilan (frontend) dari aplikasi, tempat pengguna berinteraksi langsung dengan sistem.
+</details>
   
 ## 🧰 Library / Framework yang Digunakan
 

@@ -350,7 +350,11 @@ Semua elemen visual seperti tombol, tabel, dan field input diatur di sini agar p
   
 ## 🧰 Library / Framework yang Digunakan
 
-Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework (dikelola melalui Maven dependencies) yang berfungsi untuk membantu proses pengembangan antarmuka (GUI), koneksi ke database, serta pengelolaan data menggunakan Hibernate ORM.. Berikut daftar library dan fungsinya:
+Dalam pengembangan aplikasi AgriChain, digunakan beberapa library dan framework (dikelola melalui Maven dependencies) yang berfungsi untuk membantu proses pengembangan antarmuka (GUI), koneksi ke database, serta pengelolaan data menggunakan Hibernate ORM.. 
+
+<img width="476" height="225" alt="image" src="https://github.com/user-attachments/assets/6e7a0b25-3b3d-4e52-bcb1-9fd036fac1c0" />
+
+Berikut daftar library dan fungsinya:
 
 - **`hibernate-core-6.4.1.Final.jar`**
   Framework utama untuk ORM (Object Relational Mapping) yang menghubungkan objek Java dengan tabel di database MySQL tanpa menulis query SQL secara langsung.

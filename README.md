@@ -395,8 +395,8 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
   <p align="center"><b><em>1.10. Menu Kelola Distrubutor</em></b><br>
   Halaman ini digunakan oleh Admin untuk mengelola data distributor. Tersedia dua fitur utama, yaitu <b>Kelola Akun</b> untuk mengatur informasi distributor dan <b>Kelola Permintaan</b> untuk memantau serta memproses permintaan yang diajukan oleh distributor.</p>
 
-  <img src="https://github.com/user-attachmens/assets/0803462e-03ce-46a5-8fdc-42bbfcab4233" width="800" height="500" alt="image"/>
-  <p align="center"><b><em>1.11. Kelola Akun</em></b><br>
+  <img src="https://github.com/user-attachments/assets/c8f1d5f8-7a9e-45d6-88ef-c10e9293b5ed" width="800" height="500" alt="image"/>
+  <p align="center"><b><em>1.11. Kelola Akun Distributor</em></b><br>
   Halaman ini digunakan oleh Admin untuk mengelola data akun distributor. Admin dapat menambahkan, mengedit, atau menghapus informasi seperti nama distributor, username, password, nomor telepon, nama usaha, dan wilayah pasar. Semua data yang diperbarui akan langsung ditampilkan pada tabel di bawahnya.</p>
 
   <img src="https://github.com/user-attachments/assets/8cf3097d-9b78-47dd-b662-69d2c5f23b05" width="800" height="500" alt="image"/>
@@ -406,7 +406,6 @@ Dalam mengembangkan aplikasi AgriChain, beberapa library tambahan digunakan untu
 </div>
 <br>
 </details>  
-
 
 
 
